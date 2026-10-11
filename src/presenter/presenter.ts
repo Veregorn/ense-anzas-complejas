@@ -104,9 +104,10 @@ export function startPresenter() {
     }
   });
   link.send({ type: 'nav', action: 'hello' });
+  // Latido: pide el estado cada segundo y medio; así se detecta si la otra ventana se cierra.
   setInterval(() => {
-    if (Date.now() - lastSeen > 3000) link.send({ type: 'nav', action: 'hello' });
-  }, 1500);
+    if (Date.now() - lastSeen > 1200) link.send({ type: 'nav', action: 'hello' });
+  }, 1000);
 
   function render() {
     if (!state) return;
