@@ -1,0 +1,26 @@
+:root {
+  /* Pizarra (el modelo del colegio) */
+  --board: #22382f;
+  --chalk: #ece8dc;
+  --chalk-yellow: #f3d77e;
+  /* Cosmos (el modelo de Einstein) */
+  --night: #060a19;
+  --ink: #e9edf7;
+  --ink-soft: #aab3cc;
+  --starlight: #9fb2ff;
+  --sun: #ffb347;
+  --time: #f0b45a;
+
+  --serif: 'Newsreader', 'Iowan Old Style', Georgia, serif;
+  --hand: 'Kalam', 'Segoe Print', 'Bradley Hand', cursive;
+
+  /* Escala tipográfica en px lógicos (lienzo de 1920×1080) */
+  --fs-hero: 140px;
+  --fs-xl: 100px;
+  --fs-l: 74px;
+  --fs-m: 54px;
+  --fs-s: 38px;
+  --fs-xs: 29px;
+
+  --ease-out: cubic-bezier(0.16, 0.84, 0.3, 1);
+}
