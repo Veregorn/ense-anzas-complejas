@@ -6,6 +6,14 @@
 >
 > **Vehículo:** la gravedad. Del "Sol que tira de los planetas" a "el tiempo que se frena cerca de la Tierra".
 
+### Fundamento teórico
+
+La tesis se apoya en tres autores de didáctica y psicología de la educación:
+
+1. **El problema es inevitable: Chevallard, *transposición didáctica* (1985).** El profesor transforma siempre el "saber sabio" en "saber enseñado". Simplificar es legítimo, pero exige **vigilancia epistemológica**: no perder de vista la distancia entre lo que se enseña y lo que es. *(Bloque 4)*
+2. **Por qué importa: Ausubel (1968) y el cambio conceptual (Posner et al., 1982).** "El factor más importante que influye en el aprendizaje es lo que el alumno ya sabe". Una simplificación presentada como verdad final se convierte en el cimiento de lo que viene después, y desmontarla cuesta mucho. *(Bloque 5)*
+3. **La solución: Bruner, *currículo en espiral* (1960).** Cualquier materia puede enseñarse en cualquier etapa "de alguna forma intelectualmente honesta", volviendo sobre ella con más profundidad sin contradecir lo anterior. *(Bloque 6)*
+
 ---
 
 ## Cómo leer este guion
@@ -32,7 +40,7 @@ Quiero empezar con algo que os enseñaron a todos.
 
 ---
 
-## Bloque 1 · El modelo del colegio (0:15 – 1:00)
+## Bloque 1 · El modelo del colegio (0:15 – 0:55)
 
 **Pantalla:** el Sistema Solar "de colegio". Cada planeta gira unido al Sol por un hilo de luz. Al final del bloque, los hilos se rompen y los planetas **siguen girando**.
 
@@ -51,7 +59,7 @@ Esa cuerda no existe.
 
 ---
 
-## Bloque 2 · Lo que de verdad pasa (1:00 – 2:00)
+## Bloque 2 · Lo que de verdad pasa (0:55 – 1:50)
 
 **Pantalla:** una malla (el espacio-tiempo) se hunde bajo el Sol. La Tierra recorre la curva sin que nada la sujete. Después, la cita de Wheeler.
 
@@ -67,7 +75,7 @@ Un físico, John Wheeler, lo resumió en una frase:
 
 ---
 
-## Bloque 3 · La manzana (2:00 – 3:25)
+## Bloque 3 · La manzana (1:50 – 3:15)
 
 **Pantalla:** una manzana en su rama. Aparece el flujo del tiempo: estelas que corren más deprisa arriba y más despacio abajo. Una persona con dos relojes (cabeza y pies): el de los pies va más lento (exagerado). Después: "nada está quieto"; un coche, visto desde arriba, con las ruedas de abajo en tiempo lento que gira solo; la manzana hace lo mismo y cae. Al final, los datos: *1 / 10¹⁶* (= 1 / 10 000 000 000 000 000) · *2010 · 33 cm*.
 
@@ -80,13 +88,13 @@ Vuestros pies, ahora mismo, viven un poquito más despacio que vuestra cabeza.
 
 *[Pausa. Dejar que reaccionen.]*
 
-Y ahora fijaos en una cosa: nada está realmente quieto. Aunque la manzana no se mueva, avanza por el tiempo, segundo a segundo. Todo avanza por el tiempo.
+Ahora fijaos: nada está realmente quieto. Aunque la manzana no se mueva, avanza por el tiempo, segundo a segundo.
 
 Imaginad un coche que mete las ruedas de un lado en el barro. Esas ruedas avanzan más despacio… y el coche gira hacia ese lado, sin que nadie toque el volante.
 
 A la manzana le pasa lo mismo: su parte de abajo avanza por el tiempo un poquito más despacio que la de arriba. Así que su camino gira. Hacia abajo. *[Pausa.]* Eso es caer.
 
-La diferencia es ridícula: una parte entre diez elevado a dieciséis, es decir, entre diez mil billones, por cada metro de altura. Y aun así, en 2010, en un laboratorio de Estados Unidos, la midieron con dos relojes separados solo treinta y tres centímetros.
+La diferencia es ridícula: una parte entre diez elevado a dieciséis por cada metro de altura. Y aun así, en 2010 la midieron con dos relojes separados solo treinta y tres centímetros.
 
 La manzana no cae porque la Tierra tire de ella. Cae porque, cerca de la Tierra, el tiempo pasa más despacio.
 
@@ -96,9 +104,9 @@ La manzana no cae porque la Tierra tire de ella. Cae porque, cerca de la Tierra,
 
 ---
 
-## Bloque 4 · ¿Me engañaron? (3:25 – 4:15)
+## Bloque 4 · ¿Me engañaron? (3:15 – 4:20)
 
-**Pantalla:** vuelve, en pequeño, el Sistema Solar del colegio. Después, mapas que se contienen unos a otros: "Newton" dentro de "Einstein", y este dentro de un "¿?". Al final, **la frase**, sola en pantalla.
+**Pantalla:** vuelve, en pequeño, el Sistema Solar del colegio. Después, mapas que se contienen unos a otros: "Newton" dentro de "Einstein", y este dentro de un "¿?". Luego, la transposición didáctica de Chevallard: *saber sabio → saber enseñado* y *vigilancia epistemológica*. Al final, **la frase**, sola en pantalla.
 
 **Dices:**
 Así que la pregunta es inevitable: ¿me engañaron en el colegio?
@@ -106,6 +114,8 @@ Así que la pregunta es inevitable: ¿me engañaron en el colegio?
 La respuesta honesta es: no del todo. Newton no es mentira. Sus ecuaciones son tan buenas que con ellas llevamos al ser humano a la Luna. Newton es un mapa. Un mapa excelente… de una parte del territorio.
 
 Einstein es un mapa mejor. Y probablemente algún día alguien dibujará uno mejor todavía.
+
+En didáctica esto tiene nombre: transposición didáctica. Yves Chevallard lo explicó en 1985: todo profesor convierte el saber de la ciencia en saber enseñable. Es inevitable y es legítimo. Pero exige vigilancia epistemológica: no perder nunca de vista la distancia entre lo que enseñas y lo que es.
 
 El problema no fue que me enseñaran un mapa. El problema es que nadie me dijo que era un mapa.
 
@@ -115,29 +125,31 @@ Simplificar no es engañar. Lo que engaña es ocultar que estás simplificando.
 
 *[Pausa larga: 3 segundos]*
 
-**Anclas:** ¿me engañaron? · la Luna · mapas · LA FRASE
+**Anclas:** ¿me engañaron? · la Luna · mapas · Chevallard · vigilancia · LA FRASE
 
 ---
 
-## Bloque 5 · Los que nunca se enteran (4:15 – 5:15)
+## Bloque 5 · Los que nunca se enteran (4:20 – 5:20)
 
-**Pantalla:** una línea de vida, de los 6 a los 80 años. La "cuerda" del colegio acompaña a esa persona durante toda la línea. Al final, el término *lies-to-children*.
+**Pantalla:** una línea de vida, de los 6 a los 80 años. La "cuerda" del colegio acompaña a esa persona durante toda la línea. Después, la cita de Ausubel. Al final, el término *lies-to-children*.
 
 **Dices:**
 Yo tuve suerte: me cayó un libro en las manos. Pero pensad en la mayoría de nuestros alumnos. La inmensa mayoría nunca volverá a estudiar física. Para ellos, lo que les contemos en el aula no es una primera versión. Es la versión definitiva. La que se van a llevar toda la vida.
 
-Y eso tiene un coste. La investigación educativa nos dice que las ideas erróneas que aprendemos de pequeños son de las más difíciles de desaprender. Incluso tiene nombre en inglés: *lies-to-children*. Mentiras para niños.
+Y eso tiene un coste. David Ausubel lo resumió así: el factor más importante que influye en el aprendizaje es lo que el alumno ya sabe. Si lo que ya sabe es un modelo cerrado, todo lo nuevo se construye encima.
 
-**Anclas:** tuve suerte · versión definitiva · toda la vida · mentiras para niños
+Por eso las ideas erróneas que aprendemos de pequeños son de las más difíciles de desaprender. Incluso tienen nombre en inglés: *lies-to-children*. Mentiras para niños.
+
+**Anclas:** tuve suerte · versión definitiva · Ausubel · mentiras para niños
 
 ---
 
-## Bloque 6 · La alternativa: la espiral (5:15 – 6:15)
+## Bloque 6 · La alternativa: la espiral (5:20 – 6:15)
 
 **Pantalla:** una espiral que sube. En cada vuelta aparece un nivel: Primaria → ESO → Bachillerato → Universidad. La misma idea, cada vez más profunda.
 
 **Dices:**
-¿Hay alternativa? En 1960, el psicólogo Jerome Bruner escribió algo que parece escrito para esta charla: cualquier materia puede enseñarse a cualquier niño, en cualquier etapa, de una forma intelectualmente honesta.
+¿Hay alternativa? En 1960, Jerome Bruner escribió esto: cualquier materia puede enseñarse a cualquier niño, en cualquier etapa, de una forma intelectualmente honesta.
 
 Imaginad la gravedad enseñada así. En Primaria: "las cosas con mucha masa deforman el espacio y el tiempo a su alrededor". En la ESO: "el tiempo va más lento cerca de la Tierra, y por eso caen las cosas". En Bachillerato: Newton, presentado como lo que es, una aproximación brillante. Y en la universidad, las ecuaciones.
 
@@ -152,7 +164,7 @@ Cada curso, más profundo. Ninguno contradice al anterior. Nadie tiene que decir
 **Pantalla:** vuelve el Sistema Solar del principio, pero ahora sin hilos y sobre la malla curvada. Aparecen, uno a uno, los tres compromisos. Final: la frase central.
 
 **Dices:**
-Hace treinta años, dibujar el tiempo curvándose en una pizarra era casi imposible. Hoy, todo lo que habéis visto en esta pantalla se puede preparar en unas horas. Ya no tenemos esa excusa.
+Hace treinta años, esto no cabía en una pizarra. Hoy, todo lo que habéis visto se prepara en unas horas. Ya no tenemos esa excusa.
 
 Así que os propongo tres cosas para cuando estéis en el aula:
 
@@ -176,11 +188,11 @@ Gracias.
 |---|---|---|
 | 0 | 0:00 | silencio · "algo que os enseñaron" |
 | 1 | 0:15 | cuerda invisible · buena nota · Hawking · "no existe" |
-| 2 | 1:00 | no es una fuerza · lo más recto posible · Wheeler |
-| 3 | 2:00 | ¿y la manzana? · el tiempo · vuestros pies · nada está quieto · coche en el barro · 10¹⁶ · 33 cm |
-| 4 | 3:25 | ¿me engañaron? · la Luna · mapas · LA FRASE |
-| 5 | 4:15 | tuve suerte · versión definitiva · mentiras para niños |
-| 6 | 5:15 | Bruner · Primaria-ESO-Bach-Uni · nadie dice "olvidad" |
+| 2 | 0:55 | no es una fuerza · lo más recto posible · Wheeler |
+| 3 | 1:50 | ¿y la manzana? · el tiempo · vuestros pies · nada está quieto · coche en el barro · 10¹⁶ · 33 cm |
+| 4 | 3:15 | ¿me engañaron? · la Luna · mapas · Chevallard · vigilancia · LA FRASE |
+| 5 | 4:20 | tuve suerte · versión definitiva · Ausubel · mentiras para niños |
+| 6 | 5:20 | Bruner · Primaria-ESO-Bach-Uni · nadie dice "olvidad" |
 | 7 | 6:15 | ya no hay excusa · 3 compromisos · "había más" |
 
 ---
@@ -193,5 +205,8 @@ Gracias.
 - **Chou, Hume, Rosenband y Wineland** (2010), *Science*, "Optical Clocks and Relativity": relojes ópticos del NIST que detectan la diferencia con 33 cm de altura.
 - **Newton** sobre la acción a distancia (carta a Bentley, 1693): le parecía "un absurdo tan grande" que ningún pensador competente podría aceptarlo.
 - **Bruner, J.** *El proceso de la educación* (1960): "cualquier materia puede enseñarse eficazmente, de alguna forma intelectualmente honesta, a cualquier niño en cualquier etapa del desarrollo". Origen del **currículo en espiral**.
-- **Ideas previas / *misconceptions*** y cambio conceptual: Posner, Strike, Hewson y Gertzog (1982).
+- **Chevallard, Y.** (1985). *La transposition didactique: du savoir savant au savoir enseigné*. Ed. en castellano: *La transposición didáctica: del saber sabio al saber enseñado* (Aique, 1991). Conceptos: transposición didáctica y vigilancia epistemológica.
+- **Ausubel, D. P.** (1968). *Educational Psychology: A Cognitive View* (en castellano, *Psicología educativa: un punto de vista cognoscitivo*, Trillas). "El factor más importante que influye en el aprendizaje es lo que el alumno ya sabe. Averígüese esto y enséñese consecuentemente." Aprendizaje significativo.
+- **Ideas previas / *misconceptions*** y cambio conceptual: Posner, Strike, Hewson y Gertzog (1982), *Science Education*, 66(2).
+- **Diferencia en el ritmo del tiempo**, por si piden el número exacto: 1,1 × 10⁻¹⁶ por metro, del orden de 1 / 10¹⁶.
 - ***Lies-to-children***: término popularizado por Stewart y Cohen en *The Science of Discworld* (1999), con Terry Pratchett.

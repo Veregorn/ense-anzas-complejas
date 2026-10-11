@@ -77,6 +77,7 @@ const VIEWS: [number, number, number][] = [
   [240, -30, 0.36],
   [240, -30, 0.36],
   [240, -30, 0.36],
+  [240, -30, 0.36],
 ];
 
 const blobR = (g: Region, a: number) =>
@@ -84,11 +85,12 @@ const blobR = (g: Region, a: number) =>
 
 /**
  * Bloque 4 · ¿Me engañaron? Los modelos como mapas: Newton dentro de Einstein,
- * Einstein dentro de un mapa que aún no existe. Termina con LA FRASE.
+ * Einstein dentro de un mapa que aún no existe. La transposición didáctica de Chevallard
+ * da nombre al problema. Termina con LA FRASE.
  */
 export class MapsScene extends Scene {
   readonly id = 'mapas';
-  readonly stepCount = 6;
+  readonly stepCount = 7;
   private chalkCv!: Canvas2D;
   private mapCv!: Canvas2D;
   private fx_ = new Tween(0);
@@ -102,7 +104,27 @@ export class MapsScene extends Scene {
     this.mapCv = this.canvas();
     this.fx(this.html('p', 'chalk write abs maps-question', '¿Me engañaron?'), 0, 1);
     this.fx(this.html('div', 'scrim fx'), 4);
-    this.fx(this.html('p', 'abs phrase fx maps-nobody', 'Nadie me dijo<br>que era un mapa.'), 4, 5);
+    this.fx(
+      this.html(
+        'div',
+        'abs fx maps-chev',
+        `<p class="chev-author">Yves Chevallard, 1985</p>
+         <h2 class="chev-title">Transposición didáctica</h2>
+         <div class="chev-row">
+           <div class="chev-box sabio"><b>Saber sabio</b><span>lo que sabe la ciencia</span></div>
+           <svg class="chev-arrow" viewBox="0 0 420 40" aria-hidden="true">
+             <line x1="4" y1="20" x2="396" y2="20" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+             <path d="M386 8 L410 20 L386 32" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+           </svg>
+           <div class="chev-box ensenado"><b>Saber enseñado</b><span>lo que llega al aula</span></div>
+         </div>
+         <p class="chev-vig fx"><b>Vigilancia epistemológica:</b> no perder de vista la distancia entre los dos.</p>`,
+      ),
+      4,
+      5,
+    );
+    this.el.querySelectorAll('.maps-chev .chev-vig').forEach((el) => this.fx(el, 4, 5));
+    this.fx(this.html('p', 'abs phrase fx maps-nobody', 'Nadie me dijo<br>que era un mapa.'), 5, 6);
     this.fx(
       this.html(
         'div',
@@ -110,10 +132,10 @@ export class MapsScene extends Scene {
         `<p class="phrase fx t1">Simplificar no es engañar.</p>
          <p class="phrase fx t2">Lo que engaña es ocultar<br>que estás simplificando.</p>`,
       ),
-      5,
+      6,
     );
     const thesis = this.el.querySelectorAll('.maps-thesis .fx');
-    thesis.forEach((el) => this.fx(el, 5));
+    thesis.forEach((el) => this.fx(el, 6));
   }
 
   protected onStep(step: number, _prev: number, instant: boolean) {
@@ -136,7 +158,7 @@ export class MapsScene extends Scene {
 
     const ctx = this.mapCv.ctx;
     this.mapCv.clear();
-    const mapA = this.p(1, 1.4) * (1 - 0.55 * this.p(4, 1)) * (1 - this.p(5, 1.2));
+    const mapA = this.p(1, 1.4) * (1 - 0.85 * this.p(4, 1)) * (1 - this.p(6, 1.2));
     if (mapA <= 0) return;
     const z = this.zoom.value(this.now);
     const fx = this.fx_.value(this.now);

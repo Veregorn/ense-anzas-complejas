@@ -22,7 +22,7 @@ const STAGES: { from: number; to: number; label: string; color: string; dashed?:
  */
 export class LifeScene extends Scene {
   readonly id = 'vida';
-  readonly stepCount = 3;
+  readonly stepCount = 4;
   private line!: Canvas2D;
   private chalk!: Canvas2D;
 
@@ -36,13 +36,24 @@ export class LifeScene extends Scene {
     this.fx(this.html('div', 'scrim fx'), 2);
     this.fx(
       this.html(
+        'blockquote',
+        'abs fx life-ausubel',
+        `<p class="quote">El factor más importante que influye en el aprendizaje es lo que el alumno ya sabe.</p>
+         <p class="quote-author">David Ausubel, <i>Psicología educativa</i>, 1968</p>
+         <p class="caption soft life-ausubel-note">Si lo que ya sabe es un modelo cerrado, todo lo nuevo se construye encima.</p>`,
+      ),
+      2,
+      3,
+    );
+    this.fx(
+      this.html(
         'div',
         'abs fx life-lies',
         `<p class="life-lies-en">lies-to-children</p>
          <p class="chalk life-lies-es">mentiras para niños</p>
          <p class="caption soft">Lo que se aprende mal de pequeño es de lo más difícil de desaprender.</p>`,
       ),
-      2,
+      3,
     );
   }
 

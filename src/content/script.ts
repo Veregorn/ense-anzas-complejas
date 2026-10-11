@@ -34,7 +34,7 @@ export const BLOCKS: Block[] = [
   {
     title: 'El modelo del colegio',
     start: 15,
-    end: 60,
+    end: 55,
     anchors: ['cuerda invisible', 'buena nota', 'Hawking', '“no existe”'],
     beats: [
       {
@@ -54,8 +54,8 @@ export const BLOCKS: Block[] = [
   },
   {
     title: 'Lo que de verdad pasa',
-    start: 60,
-    end: 120,
+    start: 55,
+    end: 110,
     anchors: ['no es una fuerza', 'lo más recto posible', 'Wheeler'],
     beats: [
       { cue: 'La pizarra se convierte en una malla', say: 'Según Einstein, la gravedad no es una fuerza.' },
@@ -71,8 +71,8 @@ export const BLOCKS: Block[] = [
   },
   {
     title: 'La manzana',
-    start: 120,
-    end: 205,
+    start: 110,
+    end: 195,
     anchors: ['¿y la manzana?', 'el tiempo', 'vuestros pies', 'nada está quieto', 'coche en el barro', '10¹⁶ · 33 cm'],
     beats: [
       { cue: 'Una manzana quieta en su rama', say: 'Vale, eso con planetas. ¿Pero una manzana? ¿Por qué cae una manzana que está quieta en su rama?' },
@@ -83,7 +83,7 @@ export const BLOCKS: Block[] = [
       { cue: 'Una persona con dos relojes: cabeza y pies', say: 'Vuestros pies, ahora mismo, viven un poquito más despacio que vuestra cabeza. [Pausa. Deja que reaccionen.]' },
       {
         cue: '«Nada está quieto»: la manzana avanza por el tiempo',
-        say: 'Y ahora fijaos en una cosa: nada está realmente quieto. Aunque la manzana no se mueva, avanza por el tiempo, segundo a segundo. Todo avanza por el tiempo.',
+        say: 'Ahora fijaos: nada está realmente quieto. Aunque la manzana no se mueva, avanza por el tiempo, segundo a segundo.',
       },
       {
         cue: 'Un coche con una rueda en tiempo lento: gira',
@@ -95,16 +95,16 @@ export const BLOCKS: Block[] = [
       },
       {
         cue: 'Los datos: 1 entre 10¹⁶ y 33 cm',
-        say: 'La diferencia es ridícula: una parte entre diez elevado a dieciséis, es decir, entre diez mil billones, por cada metro de altura. Y aun así, en 2010, en un laboratorio de Estados Unidos, la midieron con dos relojes separados solo treinta y tres centímetros.',
+        say: 'La diferencia es ridícula: una parte entre diez elevado a dieciséis por cada metro de altura. Y aun así, en 2010 la midieron con dos relojes separados solo treinta y tres centímetros.',
       },
       { cue: 'Frase: «La manzana no cae porque…»', say: 'La manzana no cae porque la Tierra tire de ella. Cae porque, cerca de la Tierra, el tiempo pasa más despacio.' },
     ],
   },
   {
     title: '¿Me engañaron?',
-    start: 205,
-    end: 255,
-    anchors: ['¿me engañaron?', 'la Luna', 'mapas', 'LA FRASE'],
+    start: 195,
+    end: 260,
+    anchors: ['¿me engañaron?', 'la Luna', 'mapas', 'Chevallard', 'vigilancia', 'LA FRASE'],
     beats: [
       { cue: 'Vuelve la pizarra: «¿Me engañaron?»', say: 'Así que la pregunta es inevitable: ¿me engañaron en el colegio?' },
       {
@@ -113,6 +113,10 @@ export const BLOCKS: Block[] = [
       },
       { cue: 'Zoom: el mapa de Einstein lo contiene', say: 'Einstein es un mapa mejor.' },
       { cue: 'Zoom: el mapa que todavía no existe', say: 'Y probablemente algún día alguien dibujará uno mejor todavía.' },
+      {
+        cue: 'Transposición didáctica (Chevallard)',
+        say: 'En didáctica esto tiene nombre: transposición didáctica. Yves Chevallard lo explicó en 1985: todo profesor convierte el saber de la ciencia en saber enseñable. Es inevitable y es legítimo. Pero exige vigilancia epistemológica: no perder nunca de vista la distancia entre lo que enseñas y lo que es.',
+      },
       { cue: '«Nadie me dijo que era un mapa»', say: 'El problema no fue que me enseñaran un mapa. El problema es que nadie me dijo que era un mapa.' },
       {
         cue: 'LA FRASE',
@@ -122,9 +126,9 @@ export const BLOCKS: Block[] = [
   },
   {
     title: 'Los que nunca se enteran',
-    start: 255,
-    end: 315,
-    anchors: ['tuve suerte', 'versión definitiva', 'toda la vida', 'mentiras para niños'],
+    start: 260,
+    end: 320,
+    anchors: ['tuve suerte', 'versión definitiva', 'Ausubel', 'mentiras para niños'],
     beats: [
       { cue: 'Una vida: la etapa escolar', say: 'Yo tuve suerte: me cayó un libro en las manos. Pero pensad en la mayoría de nuestros alumnos.' },
       {
@@ -132,20 +136,24 @@ export const BLOCKS: Block[] = [
         say: 'La inmensa mayoría nunca volverá a estudiar física. Para ellos, lo que les contemos en el aula no es una primera versión. Es la versión definitiva. La que se van a llevar toda la vida.',
       },
       {
+        cue: 'La cita de Ausubel',
+        say: 'Y eso tiene un coste. David Ausubel lo resumió así: el factor más importante que influye en el aprendizaje es lo que el alumno ya sabe. Si lo que ya sabe es un modelo cerrado, todo lo nuevo se construye encima.',
+      },
+      {
         cue: '«Lies-to-children»',
-        say: 'Y eso tiene un coste. La investigación educativa nos dice que las ideas erróneas que aprendemos de pequeños son de las más difíciles de desaprender. Incluso tiene nombre en inglés: lies-to-children. Mentiras para niños.',
+        say: 'Por eso las ideas erróneas que aprendemos de pequeños son de las más difíciles de desaprender. Incluso tienen nombre en inglés: lies-to-children. Mentiras para niños.',
       },
     ],
   },
   {
     title: 'La alternativa: la espiral',
-    start: 315,
+    start: 320,
     end: 375,
     anchors: ['Bruner', 'honesta', 'Primaria → Universidad', 'nadie dice “olvidad”'],
     beats: [
       {
         cue: 'La cita de Bruner',
-        say: '¿Hay alternativa? En 1960, el psicólogo Jerome Bruner escribió algo que parece escrito para esta charla: cualquier materia puede enseñarse a cualquier niño, en cualquier etapa, de una forma intelectualmente honesta.',
+        say: '¿Hay alternativa? En 1960, Jerome Bruner escribió esto: cualquier materia puede enseñarse a cualquier niño, en cualquier etapa, de una forma intelectualmente honesta.',
       },
       { cue: 'Espiral: Primaria', say: 'Imaginad la gravedad enseñada así. En Primaria: «las cosas con mucha masa deforman el espacio y el tiempo a su alrededor».' },
       { cue: 'Espiral: ESO', say: 'En la ESO: «el tiempo va más lento cerca de la Tierra, y por eso caen las cosas».' },
@@ -162,7 +170,7 @@ export const BLOCKS: Block[] = [
     beats: [
       {
         cue: 'El Sistema Solar, ahora sin hilos',
-        say: 'Hace treinta años, dibujar el tiempo curvándose en una pizarra era casi imposible. Hoy, todo lo que habéis visto en esta pantalla se puede preparar en unas horas. Ya no tenemos esa excusa.',
+        say: 'Hace treinta años, esto no cabía en una pizarra. Hoy, todo lo que habéis visto se prepara en unas horas. Ya no tenemos esa excusa.',
       },
       { cue: 'Pizarra: 1. «Esto es un modelo»', say: 'Así que os propongo tres cosas para cuando estéis en el aula: decid «esto es un modelo».' },
       { cue: '2. Enseñad dónde se rompe', say: 'Enseñad dónde se rompe.' },

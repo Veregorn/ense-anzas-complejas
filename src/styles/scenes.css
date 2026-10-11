@@ -164,3 +164,23 @@
 
 .nw { white-space: nowrap; }
 .book-note { white-space: nowrap; width: max-content; }
+
+/* ——— 4 · Transposición didáctica (Chevallard) ——— */
+.maps-chev { left: 150px; top: 230px; right: 150px; }
+.chev-author { margin: 0; font: italic 400 var(--fs-s) var(--serif); color: var(--ink-soft); }
+.chev-title { margin: 8px 0 0; font: 380 var(--fs-xl)/1.05 var(--serif); letter-spacing: -0.02em; }
+.chev-row { display: flex; align-items: center; gap: 36px; margin-top: 90px; }
+.chev-box { display: grid; gap: 10px; }
+.chev-box b { font: 500 var(--fs-l)/1 var(--serif); }
+.chev-box span { font: italic 400 var(--fs-s) var(--serif); color: var(--ink-soft); }
+.chev-box.sabio b { color: var(--starlight); }
+.chev-box.ensenado b { color: var(--time); }
+.chev-arrow { width: 420px; height: 40px; flex: none; color: var(--ink-soft); }
+.chev-vig { margin: 100px 0 0; font: 400 var(--fs-m)/1.25 var(--serif); max-width: 24em; }
+.chev-vig b { font-weight: 600; color: var(--chalk-yellow); }
+.chev-vig.on { transition-delay: 2.4s; }
+
+/* ——— 5 · Ausubel ——— */
+.life-ausubel { left: 190px; top: 250px; margin: 0; }
+.life-ausubel .quote { margin: 0; font-size: 82px; max-width: 16em; }
+.life-ausubel-note { margin-top: 56px; max-width: 26em; }

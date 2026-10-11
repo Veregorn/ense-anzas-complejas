@@ -4,7 +4,7 @@ Presentación animada para una disertación de 7 minutos (asignatura *Oratoria y
 
 > **Simplificar no es engañar. Lo que engaña es ocultar que estás simplificando.**
 
-La charla usa la gravedad como ejemplo. Empieza con la Tierra "atada" al Sol del colegio y llega hasta Einstein: la masa curva el espacio-tiempo, y una manzana cae porque cerca de la Tierra el tiempo pasa más despacio. Con esa historia se defiende una forma más honesta de enseñar lo complejo.
+La tesis se apoya en tres autores de didáctica: **Chevallard** (transposición didáctica: simplificar es inevitable, pero exige vigilancia epistemológica), **Ausubel** (lo que el alumno ya sabe condiciona todo lo que aprende después) y **Bruner** (currículo en espiral). La charla usa la gravedad como ejemplo. Empieza con la Tierra "atada" al Sol del colegio y llega hasta Einstein: la masa curva el espacio-tiempo, y una manzana cae porque cerca de la Tierra el tiempo pasa más despacio. Con esa historia se defiende una forma más honesta de enseñar lo complejo.
 
 El guion completo está en [`docs/guion.md`](docs/guion.md).
 
@@ -66,8 +66,8 @@ src/
     s1-school.ts         El modelo del colegio; los hilos se rompen
     s2-spacetime.ts      La pizarra se convierte en espacio-tiempo; cita de Wheeler
     s3-apple.ts          El flujo del tiempo, cabeza y pies, la manzana cae
-    s4-maps.ts           Newton ⊂ Einstein ⊂ ¿? · LA FRASE
-    s5-life.ts           La idea del colegio viaja toda la vida · lies-to-children
+    s4-maps.ts           Newton ⊂ Einstein ⊂ ¿? · transposición didáctica · LA FRASE
+    s5-life.ts           La idea del colegio viaja toda la vida · Ausubel · lies-to-children
     s6-spiral.ts         El currículo en espiral de Bruner
     s7-closing.ts        Tres compromisos, la puerta de luz, gracias
   presenter/             Vista de presentador
@@ -100,8 +100,10 @@ El workflow `.github/workflows/pages.yml` compila y publica en [veregorn.github.
 
 - Hawking, S. (1988). *Breve historia del tiempo*, cap. 2, "Espacio y tiempo".
 - Wheeler, J. A.: "La materia le dice al espacio-tiempo cómo curvarse; el espacio-tiempo le dice a la materia cómo moverse".
-- Diferencia de ritmo del tiempo cerca de la superficie terrestre: g·h/c² ≈ 1,1 × 10⁻¹⁶ por metro.
+- Diferencia de ritmo del tiempo cerca de la superficie terrestre: g·h/c² ≈ 1,1 × 10⁻¹⁶ por metro (del orden de 1 / 10¹⁶).
 - Chou, C. W., Hume, D. B., Rosenband, T. y Wineland, D. J. (2010). "Optical Clocks and Relativity". *Science*, 329, 1630–1633 (relojes separados 33 cm).
+- Chevallard, Y. (1985). *La transposition didactique: du savoir savant au savoir enseigné* (ed. en castellano, Aique, 1991): transposición didáctica y vigilancia epistemológica.
+- Ausubel, D. P. (1968). *Educational Psychology: A Cognitive View*: "el factor más importante que influye en el aprendizaje es lo que el alumno ya sabe".
 - Bruner, J. (1960). *El proceso de la educación*: currículo en espiral.
 - Posner, Strike, Hewson y Gertzog (1982): ideas previas y cambio conceptual.
 - Stewart, I. y Cohen, J. (1999). *The Science of Discworld* (con T. Pratchett): *lies-to-children*.
