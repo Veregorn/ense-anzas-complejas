@@ -8,6 +8,14 @@ La charla usa la gravedad como ejemplo. Empieza con la Tierra "atada" al Sol del
 
 El guion completo está en [`docs/guion.md`](docs/guion.md).
 
+## Ver la presentación
+
+**▶ [veregorn.github.io/ense-anzas-complejas](https://veregorn.github.io/ense-anzas-complejas/)**
+
+Una vez abierta, pulsa `F` para verla a pantalla completa y `P` para abrir la vista de presentador. También puedes empezar en un punto concreto: por ejemplo, [LA FRASE (bloque 4, paso 6)](https://veregorn.github.io/ense-anzas-complejas/#4.6).
+
+> Para la exposición en el aula es mejor el archivo `presentacion.html` (ver abajo): funciona sin internet. El enlace web sirve para ensayar desde cualquier equipo o compartirla.
+
 ---
 
 ## El día de la exposición
@@ -83,7 +91,7 @@ Para editar el texto de la vista de presentador, cambia `src/content/script.ts`.
 
 ### Publicar en GitHub Pages
 
-El workflow `.github/workflows/pages.yml` compila y publica en cada push a `main`. Solo hay que activarlo una vez en **Settings → Pages → Source: GitHub Actions**.
+El workflow `.github/workflows/pages.yml` compila y publica en [veregorn.github.io/ense-anzas-complejas](https://veregorn.github.io/ense-anzas-complejas/) en cada push a `main`. En **Settings → Pages**, la fuente debe ser **GitHub Actions** (no "Deploy from a branch", que publicaría el código sin compilar).
 
 ## Fuentes de los datos
 
