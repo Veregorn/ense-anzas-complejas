@@ -67,9 +67,9 @@ Un físico, John Wheeler, lo resumió en una frase:
 
 ---
 
-## Bloque 3 · La manzana (2:00 – 3:15)
+## Bloque 3 · La manzana (2:00 – 3:25)
 
-**Pantalla:** una manzana en su rama y dos relojes, uno arriba y otro abajo. El de abajo va visiblemente más lento (exagerado). La trayectoria de la manzana se tuerce hacia el reloj lento. Al final, los datos: *1 / 10 000 000 000 000 000 por metro* · *2010 · 33 cm*.
+**Pantalla:** una manzana en su rama. Aparece el flujo del tiempo: estelas que corren más deprisa arriba y más despacio abajo. Una persona con dos relojes (cabeza y pies): el de los pies va más lento (exagerado). Después: "nada está quieto"; un coche, visto desde arriba, con las ruedas de abajo en tiempo lento que gira solo; la manzana hace lo mismo y cae. Al final, los datos: *1 / 10¹⁶* (= 1 / 10 000 000 000 000 000) · *2010 · 33 cm*.
 
 **Dices:**
 Vale, eso con planetas. ¿Pero una manzana? ¿Por qué cae una manzana que está quieta en su rama?
@@ -80,17 +80,23 @@ Vuestros pies, ahora mismo, viven un poquito más despacio que vuestra cabeza.
 
 *[Pausa. Dejar que reaccionen.]*
 
-La manzana, aunque esté quieta, avanza por el tiempo. Y cuando la parte de abajo de su camino va más lenta que la de arriba, el camino se tuerce. Hacia abajo. Eso es caer.
+Y ahora fijaos en una cosa: nada está realmente quieto. Aunque la manzana no se mueva, avanza por el tiempo, segundo a segundo. Todo avanza por el tiempo.
 
-La diferencia es ridícula: una parte entre diez mil billones por cada metro de altura. Y aun así, en 2010, en un laboratorio de Estados Unidos, la midieron con dos relojes separados solo treinta y tres centímetros.
+Imaginad un coche que mete las ruedas de un lado en el barro. Esas ruedas avanzan más despacio… y el coche gira hacia ese lado, sin que nadie toque el volante.
+
+A la manzana le pasa lo mismo: su parte de abajo avanza por el tiempo un poquito más despacio que la de arriba. Así que su camino gira. Hacia abajo. *[Pausa.]* Eso es caer.
+
+La diferencia es ridícula: una parte entre diez elevado a dieciséis, es decir, entre diez mil billones, por cada metro de altura. Y aun así, en 2010, en un laboratorio de Estados Unidos, la midieron con dos relojes separados solo treinta y tres centímetros.
 
 La manzana no cae porque la Tierra tire de ella. Cae porque, cerca de la Tierra, el tiempo pasa más despacio.
 
-**Anclas:** ¿y la manzana? · el tiempo · vuestros pies · 33 cm
+**Anclas:** ¿y la manzana? · el tiempo · vuestros pies · nada está quieto · coche en el barro · 10¹⁶ · 33 cm
+
+> **La respuesta que debe quedarse en la cabeza del público:** *"La manzana cae porque abajo el tiempo va más lento, y todo lo que avanza gira hacia donde el tiempo va más lento."*
 
 ---
 
-## Bloque 4 · ¿Me engañaron? (3:15 – 4:15)
+## Bloque 4 · ¿Me engañaron? (3:25 – 4:15)
 
 **Pantalla:** vuelve, en pequeño, el Sistema Solar del colegio. Después, mapas que se contienen unos a otros: "Newton" dentro de "Einstein", y este dentro de un "¿?". Al final, **la frase**, sola en pantalla.
 
@@ -171,8 +177,8 @@ Gracias.
 | 0 | 0:00 | silencio · "algo que os enseñaron" |
 | 1 | 0:15 | cuerda invisible · buena nota · Hawking · "no existe" |
 | 2 | 1:00 | no es una fuerza · lo más recto posible · Wheeler |
-| 3 | 2:00 | ¿y la manzana? · el tiempo · vuestros pies · 33 cm |
-| 4 | 3:15 | ¿me engañaron? · la Luna · mapas · LA FRASE |
+| 3 | 2:00 | ¿y la manzana? · el tiempo · vuestros pies · nada está quieto · coche en el barro · 10¹⁶ · 33 cm |
+| 4 | 3:25 | ¿me engañaron? · la Luna · mapas · LA FRASE |
 | 5 | 4:15 | tuve suerte · versión definitiva · mentiras para niños |
 | 6 | 5:15 | Bruner · Primaria-ESO-Bach-Uni · nadie dice "olvidad" |
 | 7 | 6:15 | ya no hay excusa · 3 compromisos · "había más" |

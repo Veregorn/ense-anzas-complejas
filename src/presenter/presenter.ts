@@ -42,6 +42,16 @@ export function startPresenter() {
           <div class="pz-script" data-k="script"></div>
         </div>
         <aside class="pz-right">
+          <div class="pz-setup" data-k="setup">
+            <span>Antes de empezar</span>
+            <ol>
+              <li>Pantallas en modo <b>extendido</b>, no duplicado.</li>
+              <li>Arrastra la ventana de la presentación al proyector, haz clic en ella y pulsa <kbd>F</kbd>.</li>
+              <li>Deja esta ventana en tu portátil (aquí puedes pulsar <kbd>F</kbd> también).</li>
+              <li>El mando funciona en la ventana que tenga el foco: cualquiera de las dos sirve.</li>
+            </ol>
+            <p>Este aviso desaparece con el primer clic.</p>
+          </div>
           <div class="pz-next">
             <span>Siguiente clic</span>
             <p data-k="next"></p>
@@ -143,6 +153,7 @@ export function startPresenter() {
         : 'Conectado con la pantalla de la presentación'
       : 'Sin conexión: abre la presentación y pulsa P desde ella';
     $('status').classList.toggle('off', !connected);
+    $('setup').hidden = !!state && state.startedAt !== null;
     if (!state || state.startedAt === null) return;
     const elapsed = (Date.now() - state.startedAt) / 1000;
     const b = BLOCKS[state.scene];

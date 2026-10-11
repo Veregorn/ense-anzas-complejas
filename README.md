@@ -20,10 +20,13 @@ Una vez abierta, pulsa `F` para verla a pantalla completa y `P` para abrir la vi
 
 ## El día de la exposición
 
-1. Abre **`presentacion.html`** (el archivo único de `dist-single/`) en Chrome. Funciona **sin internet**.
-2. Pulsa **F** para la pantalla completa en el proyector.
-3. Pulsa **P** para abrir la **vista de presentador** y llévala a la pantalla del portátil.
-4. Avanza con el mando. **Cada clic es un paso**: nada cambia de idea hasta que tú pulsas.
+1. Conecta el portátil al proyector en modo **pantalla extendida**, no duplicada. En macOS: *Ajustes del Sistema → Pantallas → (proyector) → Usar como: Pantalla extendida*. Si duplicas pantalla, el público vería también tus notas.
+2. Abre **`presentacion.html`** (el archivo único de `dist-single/`) en Chrome. Funciona **sin internet**.
+3. Pulsa **P**: se abre la **vista de presentador** en una ventana nueva. Déjala en la pantalla del portátil.
+4. Arrastra la ventana de la presentación a la pantalla del proyector, haz clic en ella y pulsa **F**. Se pone a pantalla completa en el proyector.
+5. Avanza con el mando. **Cada clic es un paso**: nada cambia de idea hasta que tú pulsas. El mando actúa sobre la ventana que tenga el foco, y cualquiera de las dos sirve porque están sincronizadas.
+
+La vista de presentador recuerda estos pasos hasta que das el primer clic.
 
 | Tecla | Acción |
 |---|---|

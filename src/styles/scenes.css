@@ -47,7 +47,7 @@
 
 /* ——— 3 · La manzana ——— */
 .ap-question { left: 150px; top: 130px; margin: 0; max-width: 12em; }
-.ap-caption { left: 150px; top: 140px; margin: 0; font-size: var(--fs-m); max-width: 16em; }
+.ap-caption { left: 150px; top: 118px; margin: 0; font-size: var(--fs-m); max-width: 16em; }
 .ap-gauge-top, .ap-gauge-bottom { left: 118px; margin: 0; font: italic 400 29px var(--serif); color: var(--ink-soft); }
 .ap-gauge-top { top: 282px; }
 .ap-gauge-bottom { top: 862px; color: var(--time); }
@@ -61,21 +61,27 @@
 .ap-note { left: 724px; top: 610px; margin: 0; font: italic 400 30px/1.3 var(--serif); color: var(--ink-soft); }
 .ap-lbl { margin: 0; font: italic 400 34px/1.25 var(--serif); color: var(--ink); width: 420px; text-align: right; }
 .ap-lbl-a { left: 950px; top: 360px; }
-.ap-lbl-b { left: 950px; top: 520px; color: var(--time); }
-.ap-lbl-b.on { transition-delay: 2s; }
 .ap-lbl-c { left: 950px; top: 760px; }
-.ap-lbl-c.on { transition-delay: 4.4s; }
-.ap-lbl-a.on { transition-delay: 0.3s; }
-.ap-data { left: 150px; top: 230px; right: 150px; margin: 0; }
+.ap-lbl-c.on { transition-delay: 3.8s; }
+.ap-lbl-a.on { transition-delay: 0.6s; }
+.ap-cart-cap { left: 150px; top: 118px; }
+.ap-cart-cap .caption { margin: 0; font-size: var(--fs-m); max-width: none; }
+.ap-cart-cap .c2 { color: var(--time); }
+.ap-cart-cap .c2.on { transition-delay: 2.2s; }
+.ap-cart-note { left: 150px; top: 968px; margin: 0; max-width: none; }
+.ap-cart-note.on { transition-delay: 3.6s; }
+.ap-data { left: 150px; top: 150px; right: 150px; margin: 0; }
+.ap-num sup { font-size: 0.5em; vertical-align: 0.95em; margin-left: 0.04em; }
+.ap-zeros { margin: 16px 0 0; font: 300 46px/1 var(--serif); color: var(--ink-soft); font-variant-numeric: lining-nums; }
 .ap-num {
   margin: 0;
-  font: 300 112px/1 var(--serif);
+  font: 300 150px/1 var(--serif);
   letter-spacing: -0.02em;
   font-variant-numeric: lining-nums;
   color: var(--ink);
 }
 .ap-data > .caption { margin: 22px 0 0; max-width: none; }
-.ap-exp { display: flex; align-items: center; gap: 48px; margin-top: 110px; }
+.ap-exp { display: flex; align-items: center; gap: 48px; margin-top: 70px; }
 .ap-exp svg { width: 150px; height: 280px; flex: none; }
 .ap-year { margin: 0; font: 300 120px/1 var(--serif); color: var(--time); }
 .ap-exp .caption { margin: 18px 0 0; max-width: 20em; }
@@ -157,4 +163,4 @@
 .close-thesis.on { transition-delay: 1.2s; }
 
 .nw { white-space: nowrap; }
-.book-note { white-space: nowrap; }
+.book-note { white-space: nowrap; width: max-content; }

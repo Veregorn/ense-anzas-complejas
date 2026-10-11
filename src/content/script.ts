@@ -72,8 +72,8 @@ export const BLOCKS: Block[] = [
   {
     title: 'La manzana',
     start: 120,
-    end: 195,
-    anchors: ['¿y la manzana?', 'el tiempo', 'vuestros pies', '33 cm'],
+    end: 205,
+    anchors: ['¿y la manzana?', 'el tiempo', 'vuestros pies', 'nada está quieto', 'coche en el barro', '10¹⁶ · 33 cm'],
     beats: [
       { cue: 'Una manzana quieta en su rama', say: 'Vale, eso con planetas. ¿Pero una manzana? ¿Por qué cae una manzana que está quieta en su rama?' },
       {
@@ -82,19 +82,27 @@ export const BLOCKS: Block[] = [
       },
       { cue: 'Una persona con dos relojes: cabeza y pies', say: 'Vuestros pies, ahora mismo, viven un poquito más despacio que vuestra cabeza. [Pausa. Deja que reaccionen.]' },
       {
-        cue: 'El camino de la manzana se tuerce… y cae',
-        say: 'La manzana, aunque esté quieta, avanza por el tiempo. Y cuando la parte de abajo de su camino va más lenta que la de arriba, el camino se tuerce. Hacia abajo. Eso es caer.',
+        cue: '«Nada está quieto»: la manzana avanza por el tiempo',
+        say: 'Y ahora fijaos en una cosa: nada está realmente quieto. Aunque la manzana no se mueva, avanza por el tiempo, segundo a segundo. Todo avanza por el tiempo.',
       },
       {
-        cue: 'Los datos: 1 entre diez mil billones y 33 cm',
-        say: 'La diferencia es ridícula: una parte entre diez mil billones por cada metro de altura. Y aun así, en 2010, en un laboratorio de Estados Unidos, la midieron con dos relojes separados solo treinta y tres centímetros.',
+        cue: 'Un coche con una rueda en tiempo lento: gira',
+        say: 'Imaginad un coche que mete las ruedas de un lado en el barro. Esas ruedas avanzan más despacio… y el coche gira hacia ese lado, sin que nadie toque el volante.',
+      },
+      {
+        cue: 'La manzana hace lo mismo… y cae',
+        say: 'A la manzana le pasa lo mismo: su parte de abajo avanza por el tiempo un poquito más despacio que la de arriba. Así que su camino gira. Hacia abajo. [Pausa.] Eso es caer.',
+      },
+      {
+        cue: 'Los datos: 1 entre 10¹⁶ y 33 cm',
+        say: 'La diferencia es ridícula: una parte entre diez elevado a dieciséis, es decir, entre diez mil billones, por cada metro de altura. Y aun así, en 2010, en un laboratorio de Estados Unidos, la midieron con dos relojes separados solo treinta y tres centímetros.',
       },
       { cue: 'Frase: «La manzana no cae porque…»', say: 'La manzana no cae porque la Tierra tire de ella. Cae porque, cerca de la Tierra, el tiempo pasa más despacio.' },
     ],
   },
   {
     title: '¿Me engañaron?',
-    start: 195,
+    start: 205,
     end: 255,
     anchors: ['¿me engañaron?', 'la Luna', 'mapas', 'LA FRASE'],
     beats: [

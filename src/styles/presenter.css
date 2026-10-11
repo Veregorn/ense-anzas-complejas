@@ -98,7 +98,7 @@ body.presenter.is-black .pz-head { box-shadow: inset 0 -3px 0 #e2574c; }
   border-left: 1px solid #222a40;
   padding: 26px 28px;
   display: grid;
-  grid-template-rows: auto auto 1fr;
+  grid-template-rows: auto auto auto 1fr;
   gap: 22px;
   min-height: 0;
   overflow-y: auto;
@@ -167,3 +167,20 @@ body.presenter.is-black .pz-head { box-shadow: inset 0 -3px 0 #e2574c; }
 }
 .pz-status { margin: 0 0 0 auto; font: italic 400 17px var(--serif); color: #8fd6a8; }
 .pz-status.off { color: #ff8a7a; }
+
+.pz-setup {
+  border: 1px dashed #3c4a75;
+  border-radius: 14px;
+  padding: 16px 22px 14px;
+}
+.pz-setup[hidden] { display: none; }
+.pz-setup > span { font: italic 400 17px var(--serif); color: var(--time); }
+.pz-setup ol { margin: 8px 0 6px; padding-left: 22px; font: 400 19px/1.4 var(--serif); }
+.pz-setup li { margin-bottom: 4px; }
+.pz-setup kbd {
+  font: 600 12px system-ui, sans-serif;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.12);
+}
+.pz-setup p { margin: 0; font: italic 400 15px var(--serif); color: var(--ink-soft); }
