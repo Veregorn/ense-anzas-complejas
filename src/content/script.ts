@@ -2,6 +2,7 @@
  * El guion, bloque a bloque y clic a clic. Es la fuente de la vista de presentador.
  *  - cue:  qué ocurre en pantalla al llegar a ese paso.
  *  - say:  lo que dices mientras estás en ese paso. Entre corchetes, indicaciones de actuación.
+ * Hay una entrada por escena; el bloque 4 del guion (la reconstrucción) ocupa cinco escenas.
  */
 export interface Beat {
   cue: string;
@@ -17,169 +18,163 @@ export interface Block {
   beats: Beat[];
 }
 
-export const TITLE = 'Enseñanzas complejas: ¿simplificación o engaño?';
-export const THESIS = 'Simplificar no es engañar. Lo que engaña es ocultar que estás simplificando.';
+export const TITLE = 'Enseñanzas con fecha de caducidad';
+export const THESIS = 'Simplificar no es engañar. Engañar es quitar la etiqueta.';
 
 export const BLOCKS: Block[] = [
   {
-    title: 'Silencio inicial',
+    title: 'El átomo dibujado en el aire',
     start: 0,
-    end: 15,
-    anchors: ['silencio', '“algo que os enseñaron”'],
+    end: 40,
+    anchors: ['dedo en el aire', '1926', '¿os engañaron?'],
     beats: [
-      { cue: 'Pantalla en negro', say: '[Colócate. Silencio de 3 segundos. Mira al público.]' },
-      { cue: 'El título aparece escrito a tiza', say: 'Quiero empezar con algo que os enseñaron a todos.' },
+      {
+        cue: 'Pizarra vacía: «Dibujad un átomo en el aire»',
+        say: '[Sin saludar. Mira al público. Tres segundos de silencio.] Antes de empezar, os pido una cosa. Levantad un dedo… y dibujad en el aire un átomo. [Dibújalo tú también, con órbitas. Espera.]',
+      },
+      { cue: 'Aparece a tiza el átomo de siempre', say: 'Casi todos habéis dibujado lo mismo: un núcleo en el centro y electrones dando vueltas, como planetas alrededor del Sol.' },
+      { cue: 'Sello: «Descartado en 1926»', say: 'Pues acabáis de dibujar algo que la física descartó en 1926. Hace casi cien años. Y aun así, es lo que os sale.' },
+      { cue: '«¿Os engañaron?» y el título', say: '[Pausa.] Así que os pregunto: ¿os engañaron?' },
     ],
   },
   {
-    title: 'El modelo del colegio',
-    start: 15,
-    end: 55,
-    anchors: ['cuerda invisible', 'buena nota', 'Hawking', '“no existe”'],
-    beats: [
-      {
-        cue: 'Se dibuja el Sistema Solar del colegio',
-        say: 'En el colegio nos pusieron delante esta imagen. El Sol en el centro, los planetas girando, y una explicación muy sencilla: el Sol atrae a los planetas con una fuerza, la gravedad, y por eso no se escapan.',
-      },
-      {
-        cue: 'Se iluminan los hilos: «una cuerda invisible»',
-        say: 'Como si cada planeta estuviera atado al Sol con una cuerda invisible. Me lo creí. Lo estudié. Lo puse en un examen. Y saqué buena nota.',
-      },
-      {
-        cue: 'Aparece el libro de Hawking',
-        say: 'Años después cayó en mis manos un libro: «Breve historia del tiempo», de Stephen Hawking. Y en el capítulo dos, Hawking me dijo algo que me dejó sin suelo bajo los pies.',
-      },
-      { cue: 'Los hilos se rompen… y los planetas siguen girando', say: '[Pausa.] Esa cuerda no existe.' },
-    ],
-  },
-  {
-    title: 'Lo que de verdad pasa',
-    start: 55,
+    title: 'Reglas que caducan',
+    start: 40,
     end: 110,
-    anchors: ['no es una fuerza', 'lo más recto posible', 'Wheeler'],
+    anchors: ['trece reglas', '5 − 7', 'cuerda del Sol', 'ingredientes: no consta', 'el problema es otro'],
     beats: [
-      { cue: 'La pizarra se convierte en una malla', say: 'Según Einstein, la gravedad no es una fuerza.' },
+      { cue: '«Trece reglas que caducan»', say: 'En didáctica de las matemáticas hay un artículo muy citado que se titula «Trece reglas que caducan». Seguro que os suenan.' },
+      { cue: 'Caso 1: «No se puede restar 7 a 5»', say: '«No se puede restar siete a cinco.»' },
+      { cue: 'Etiqueta: antes de 1º de ESO', say: 'En Primaria, esa respuesta era un diez. En 1º de ESO, la misma respuesta es un cero.' },
+      { cue: 'Caso 2: el Sol y la cuerda invisible', say: 'En ciencias pasa lo mismo. «El Sol atrae a los planetas como si los atara con una cuerda invisible.»' },
+      { cue: 'Etiqueta: antes de leer a Einstein', say: '[Deja que se rían.]' },
       {
-        cue: 'La malla se hunde: aparece el espacio-tiempo',
-        say: 'Una masa como el Sol curva el espacio-tiempo a su alrededor. Y la Tierra no está atada a nada: simplemente avanza lo más recto que puede… por un espacio que está curvado. Y ese «lo más recto posible», visto desde fuera, es una órbita.',
+        cue: 'Caso 3: impurezas y conduce mejor',
+        say: 'Y a veces ni siquiera se simplifica: directamente no se explica. En Tecnología se cuenta que a los semiconductores se les añaden impurezas y que así conducen mejor. ¿Por qué?',
       },
-      {
-        cue: 'La cita de Wheeler',
-        say: 'Un físico, John Wheeler, lo resumió en una frase: [lee despacio] «La materia le dice al espacio-tiempo cómo curvarse. El espacio-tiempo le dice a la materia cómo moverse.»',
-      },
+      { cue: 'Etiqueta: «Ingredientes: no consta»', say: 'Hay que creérselo.' },
+      { cue: '«Todo caduca. El problema es otro.»', say: '[Pausa.] Pero ojo: que una regla caduque no es el problema. Todo lo que enseñamos caduca. El problema es otro.' },
     ],
   },
   {
-    title: 'La manzana',
+    title: 'Lo caducado se queda en la nevera',
     start: 110,
-    end: 195,
-    anchors: ['¿y la manzana?', 'el tiempo', 'vuestros pies', 'nada está quieto', 'coche en el barro', '10¹⁶ · 33 cm'],
+    end: 180,
+    anchors: ['Taber', 'culpable de aprender lo que le enseñaron', '150 universitarios', 'doctores en física', 'la nevera'],
     beats: [
-      { cue: 'Una manzana quieta en su rama', say: 'Vale, eso con planetas. ¿Pero una manzana? ¿Por qué cae una manzana que está quieta en su rama?' },
       {
-        cue: 'Aparece el flujo del tiempo: más lento abajo',
-        say: 'Aquí viene lo más bonito. Lo que está curvado cerca de la Tierra no es tanto el espacio… es el tiempo. Cuanto más cerca estás de una masa, más despacio pasa el tiempo.',
-      },
-      { cue: 'Una persona con dos relojes: cabeza y pies', say: 'Vuestros pies, ahora mismo, viven un poquito más despacio que vuestra cabeza. [Pausa. Deja que reaccionen.]' },
-      {
-        cue: '«Nada está quieto»: la manzana avanza por el tiempo',
-        say: 'Ahora fijaos: nada está realmente quieto. Aunque la manzana no se mueva, avanza por el tiempo, segundo a segundo.',
+        cue: 'Taber: «culpable de aprender lo que le enseñaron»',
+        say: 'Keith Taber, uno de los grandes de la didáctica de las ciencias, le ha puesto nombre: impedimento pedagógico. Son errores que no vienen de la intuición del alumno, sino de cómo se lo enseñamos. Y dice algo demoledor: en esos casos, el alumno solo es culpable de haber aprendido lo que le enseñaron.',
       },
       {
-        cue: 'Un coche con una rueda en tiempo lento: gira',
-        say: 'Imaginad un coche que mete las ruedas de un lado en el barro. Esas ruedas avanzan más despacio… y el coche gira hacia ese lado, sin que nadie toque el volante.',
+        cue: 'Shtulman y Valcarcel: 150 universitarios',
+        say: '¿Y se arregla después? No del todo. En 2012, Shtulman y Valcarcel pusieron a ciento cincuenta universitarios de ciencias a contestar «verdadero o falso» a toda velocidad. Cuando la ciencia contradecía la idea de siempre, tardaban más y fallaban más. La idea vieja seguía ahí.',
       },
-      {
-        cue: 'La manzana hace lo mismo… y cae',
-        say: 'A la manzana le pasa lo mismo: su parte de abajo avanza por el tiempo un poquito más despacio que la de arriba. Así que su camino gira. Hacia abajo. [Pausa.] Eso es caer.',
-      },
-      {
-        cue: 'Los datos: 1 entre 10¹⁶ y 33 cm',
-        say: 'La diferencia es ridícula: una parte entre diez elevado a dieciséis por cada metro de altura. Y aun así, en 2010 la midieron con dos relojes separados solo treinta y tres centímetros.',
-      },
-      { cue: 'Frase: «La manzana no cae porque…»', say: 'La manzana no cae porque la Tierra tire de ella. Cae porque, cerca de la Tierra, el tiempo pasa más despacio.' },
+      { cue: 'El cerebro de los doctores en física', say: 'En 2021, otro equipo lo repitió con doctores en física dentro de un escáner. Su cerebro tenía que frenar activamente la idea ingenua. [Pausa.] Doctores en física.' },
+      { cue: 'La nevera se abre', say: 'Lo caducado no se tira solo. Se queda en la nevera.' },
+      { cue: 'Ausubel', say: 'Y como decía Ausubel, lo que el alumno ya sabe es lo que más condiciona todo lo que aprenderá después.' },
     ],
   },
   {
-    title: '¿Me engañaron?',
-    start: 195,
-    end: 260,
-    anchors: ['¿me engañaron?', 'la Luna', 'mapas', 'Chevallard', 'vigilancia', 'LA FRASE'],
+    title: 'Poner la etiqueta',
+    start: 180,
+    end: 230,
+    anchors: ['Chevallard', 'vigilancia', 'la etiqueta en tres líneas', 'Bruner', 'espiral'],
     beats: [
-      { cue: 'Vuelve la pizarra: «¿Me engañaron?»', say: 'Así que la pregunta es inevitable: ¿me engañaron en el colegio?' },
       {
-        cue: 'El mapa de Newton',
-        say: 'La respuesta honesta es: no del todo. Newton no es mentira. Sus ecuaciones son tan buenas que con ellas llevamos al ser humano a la Luna. Newton es un mapa. Un mapa excelente… de una parte del territorio.',
+        cue: 'Chevallard: transposición didáctica',
+        say: 'En didáctica, esto también tiene nombre. Yves Chevallard lo llamó transposición didáctica: todo profesor transforma el saber de la ciencia en algo que se pueda enseñar. Es inevitable, y es legítimo. Pero exige vigilancia epistemológica.',
       },
-      { cue: 'Zoom: el mapa de Einstein lo contiene', say: 'Einstein es un mapa mejor.' },
-      { cue: 'Zoom: el mapa que todavía no existe', say: 'Y probablemente algún día alguien dibujará uno mejor todavía.' },
+      { cue: 'La etiqueta del profesor', say: 'Traducido al aula, es poner la etiqueta. Decir «esto es un modelo». Decir hasta dónde vale. Y decir que hay más.' },
       {
-        cue: 'Transposición didáctica (Chevallard)',
-        say: 'En didáctica esto tiene nombre: transposición didáctica. Yves Chevallard lo explicó en 1985: todo profesor convierte el saber de la ciencia en saber enseñable. Es inevitable y es legítimo. Pero exige vigilancia epistemológica: no perder nunca de vista la distancia entre lo que enseñas y lo que es.',
-      },
-      { cue: '«Nadie me dijo que era un mapa»', say: 'El problema no fue que me enseñaran un mapa. El problema es que nadie me dijo que era un mapa.' },
-      {
-        cue: 'LA FRASE',
-        say: '[Pausa. Mira al público. Despacio.] Simplificar no es engañar. Lo que engaña es ocultar que estás simplificando. [Pausa larga: 3 segundos.]',
+        cue: 'La espiral de Bruner',
+        say: 'Bruner lo completó hace más de sesenta años: cualquier materia puede enseñarse a cualquier edad de una forma intelectualmente honesta. En espiral. Volviendo a la misma idea cada vez más a fondo, sin tener que desmentir la anterior.',
       },
     ],
   },
   {
-    title: 'Los que nunca se enteran',
-    start: 260,
-    end: 320,
-    anchors: ['tuve suerte', 'versión definitiva', 'Ausubel', 'mentiras para niños'],
+    title: 'Reconstruir el átomo',
+    start: 230,
+    end: 290,
+    anchors: ['más allá de la etiqueta', 'fotos', 'nube', '«ese pequeño oh»', 'dopamina'],
     beats: [
-      { cue: 'Una vida: la etapa escolar', say: 'Yo tuve suerte: me cayó un libro en las manos. Pero pensad en la mayoría de nuestros alumnos.' },
       {
-        cue: 'La idea del colegio viaja hasta los 80 años',
-        say: 'La inmensa mayoría nunca volverá a estudiar física. Para ellos, lo que les contemos en el aula no es una primera versión. Es la versión definitiva. La que se van a llevar toda la vida.',
+        cue: '«La reconstrucción»: el átomo de tiza',
+        say: 'Pero hoy podemos ir más allá de la etiqueta. Bohr dibujaba con tiza. Nosotros tenemos animaciones. Así que vamos a reconstruir todo lo de antes, como se lo contaríamos hoy a un alumno de 3º de ESO.',
       },
       {
-        cue: 'La cita de Ausubel',
-        say: 'Y eso tiene un coste. David Ausubel lo resumió así: el factor más importante que influye en el aprendizaje es lo que el alumno ya sabe. Si lo que ya sabe es un modelo cerrado, todo lo nuevo se construye encima.',
+        cue: 'La nube se forma, foto a foto',
+        say: 'El átomo. El electrón no da vueltas como un planeta. Si pudiéramos fotografiarlo, cada foto lo pillaría en un sitio distinto. Juntad miles de fotos… y aparece una nube. Esa nube es el átomo.',
       },
+      { cue: 'La nube toma forma de lóbulos + etiqueta', say: 'Y tiene formas preciosas.' },
       {
-        cue: '«Lies-to-children»',
-        say: 'Por eso las ideas erróneas que aprendemos de pequeños son de las más difíciles de desaprender. Incluso tienen nombre en inglés: lies-to-children. Mentiras para niños.',
+        cue: 'Gruber: curiosidad y dopamina',
+        say: '[Pausa.] ¿Habéis notado ese pequeño «oh»? Eso es curiosidad, y no es un detalle menor. En 2014, Gruber y su equipo comprobaron que, cuando sentimos curiosidad, se activa el circuito de la dopamina y recordamos mejor. Incluso lo que viene justo después.',
       },
     ],
   },
   {
-    title: 'La alternativa: la espiral',
-    start: 320,
-    end: 375,
-    anchors: ['Bruner', 'honesta', 'Primaria → Universidad', 'nadie dice “olvidad”'],
+    title: 'Reconstruir la resta',
+    start: 290,
+    end: 310,
+    anchors: ['el garaje', 'planta cinco', 'menos dos'],
+    beats: [
+      { cue: 'El ascensor baja siete plantas', say: 'La resta. Los números no se acaban en el cero. Como en el ascensor de un garaje: desde la planta cinco, bajas siete y llegas a la menos dos.' },
+      { cue: 'Etiqueta: números enteros', say: '[Breve pausa y sigue.]' },
+    ],
+  },
+  {
+    title: 'Reconstruir el Sol',
+    start: 310,
+    end: 335,
+    anchors: ['no hay cuerda', 'curva', 'sábana', 'también es un modelo'],
+    beats: [
+      { cue: 'El Sistema Solar del colegio, con sus hilos', say: 'El Sol.' },
+      { cue: 'Los hilos se rompen y el espacio se curva', say: 'No hay cuerda. El Sol curva el espacio a su alrededor y los planetas siguen esa curva, como canicas en una sábana hundida.' },
+      { cue: 'Etiqueta: también es un modelo', say: 'Con su etiqueta, porque la sábana también es un modelo.' },
+    ],
+  },
+  {
+    title: 'Reconstruir los semiconductores',
+    start: 335,
+    end: 365,
+    anchors: ['cuatro manos', 'fósforo: sobra una', 'boro: hueco', 'el cine'],
+    beats: [
+      { cue: 'La red de silicio', say: 'Los semiconductores. Cada átomo de silicio se da la mano con cuatro vecinos.' },
+      { cue: 'Fósforo: un electrón libre', say: 'Si metemos uno de fósforo, que tiene cinco manos, le sobra una: un electrón libre para moverse.' },
+      {
+        cue: 'Boro: el hueco que se mueve (y el cine)',
+        say: 'Si metemos uno de boro, que solo tiene tres, queda un hueco. Y el hueco se mueve, como un asiento libre en el cine cuando la gente se va cambiando de sitio.',
+      },
+      { cue: 'Etiqueta: modelo de las manos', say: '[Pausa breve.]' },
+    ],
+  },
+  {
+    title: 'Ni adorno ni truco',
+    start: 365,
+    end: 385,
+    anchors: ['no es adorno', 'detalles seductores', 'Recalcati', 'deseo de saber'],
     beats: [
       {
-        cue: 'La cita de Bruner',
-        say: '¿Hay alternativa? En 1960, Jerome Bruner escribió esto: cualquier materia puede enseñarse a cualquier niño, en cualquier etapa, de una forma intelectualmente honesta.',
+        cue: '«Ninguna de estas animaciones es un adorno»',
+        say: 'Fijaos en que ninguna de estas animaciones es un adorno. Y eso importa: las anécdotas llamativas pero irrelevantes, los detalles seductores, distraen y empeoran el aprendizaje. La sorpresa tiene que estar en el concepto.',
       },
-      { cue: 'Espiral: Primaria', say: 'Imaginad la gravedad enseñada así. En Primaria: «las cosas con mucha masa deforman el espacio y el tiempo a su alrededor».' },
-      { cue: 'Espiral: ESO', say: 'En la ESO: «el tiempo va más lento cerca de la Tierra, y por eso caen las cosas».' },
-      { cue: 'Espiral: Bachillerato', say: 'En Bachillerato: Newton, presentado como lo que es, una aproximación brillante.' },
-      { cue: 'Espiral: Universidad', say: 'Y en la universidad, las ecuaciones.' },
-      { cue: '«Ninguno contradice al anterior»', say: 'Cada curso, más profundo. Ninguno contradice al anterior. Nadie tiene que decir nunca: «olvidad lo que os enseñaron».' },
+      { cue: 'Recalcati: la erótica de la enseñanza', say: 'Massimo Recalcati lo llama la erótica de la enseñanza: no transmitir solo información, sino el deseo de saber.' },
     ],
   },
   {
     title: 'Cierre',
-    start: 375,
+    start: 385,
     end: 420,
-    anchors: ['ya no hay excusa', 'modelo · dónde se rompe · puerta abierta', '“había más”'],
+    anchors: ['todo caducará', 'también la nube', '¿sin etiqueta?', 'frase final'],
     beats: [
       {
-        cue: 'El Sistema Solar, ahora sin hilos',
-        say: 'Hace treinta años, esto no cabía en una pizarra. Hoy, todo lo que habéis visto se prepara en unas horas. Ya no tenemos esa excusa.',
+        cue: 'Los cuatro casos, cada uno con su etiqueta',
+        say: 'Todo lo que enseñamos caducará algún día. También la nube, también la sábana. Eso no lo podemos evitar. Lo que sí está en nuestras manos es que nuestros alumnos lo sepan.',
       },
-      { cue: 'Pizarra: 1. «Esto es un modelo»', say: 'Así que os propongo tres cosas para cuando estéis en el aula: decid «esto es un modelo».' },
-      { cue: '2. Enseñad dónde se rompe', say: 'Enseñad dónde se rompe.' },
-      { cue: '3. Dejad la puerta abierta', say: 'Y dejad siempre la puerta abierta.' },
-      {
-        cue: 'Una puerta de luz y la frase final',
-        say: '[Pausa.] Al niño que yo fui no le hacía falta que le contaran toda la verdad. Le hacía falta que alguien le dijera que había más.',
-      },
-      { cue: 'Gracias', say: 'Gracias. [Sonríe. Quédate quieto dos segundos antes de moverte.]' },
+      { cue: '«¿Qué estáis enseñando vosotros sin etiqueta?»', say: '[Pausa. Mira al público.] Así que os dejo con una pregunta: ¿qué estáis enseñando vosotros sin etiqueta?' },
+      { cue: 'La frase final', say: '[Pausa larga.] Simplificar no es engañar. Engañar es quitar la etiqueta.' },
+      { cue: 'Gracias', say: 'Gracias. [Sonríe. Quédate quieto dos segundos.]' },
     ],
   },
 ];

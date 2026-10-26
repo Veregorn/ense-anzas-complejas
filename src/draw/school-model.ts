@@ -2,7 +2,7 @@
  * El Sistema Solar "de colegio", dibujado a tiza: el Sol, órbitas circulares
  * y planetas atados al Sol con hilos. Se reutiliza en varias escenas a distinta escala.
  */
-import { clamp01, easeOutCubic, phase, TAU } from '../core/math';
+import { clamp01, easeOutCubic, phase, rng, TAU } from '../core/math';
 import { hex } from '../core/palette';
 import { chalkArrow, chalkHatchCircle, chalkStroke, chalkText, circlePts, linePts, type Pt } from './chalk';
 
@@ -142,4 +142,52 @@ export function drawSchoolModel(ctx: CanvasRenderingContext2D, o: SchoolModelOpt
       });
     });
   }
+}
+
+/**
+ * Los hilos se rompen: cada uno se parte por un punto, las mitades se recogen
+ * y cae polvo de tiza. `bt` = segundos desde la rotura. Los planetas siguen girando.
+ */
+export function drawThreadBreak(ctx: CanvasRenderingContext2D, o: SchoolModelOpts, bt: number) {
+  const s = o.scale ?? 1;
+  const alphaAll = o.alpha ?? 1;
+  const sunR = 46 * s;
+  const k = easeOutCubic(Math.min(1, bt / 0.9));
+  const pos = planetPositions(o);
+  const posSnap = planetPositions({ ...o, t: o.t - bt });
+  pos.forEach(([px, py], i) => {
+    const f = 0.42 + ((i * 37) % 23) / 100;
+    const ang = Math.atan2(py - o.cy, px - o.cx);
+    const sx = o.cx + Math.cos(ang) * (sunR + 6 * s);
+    const sy = o.cy + Math.sin(ang) * (sunR + 6 * s);
+    const mx = sx + (px - sx) * f;
+    const my = sy + (py - sy) * f;
+    const a = (1 - k) * alphaAll;
+    if (a > 0.01) {
+      const sag = 22 * s * k;
+      const w = Math.max(1.6, 3.6 * s) * 0.8;
+      chalkStroke(ctx, linePts(sx, sy, sx + (mx - sx) * (1 - k), sy + (my - sy) * (1 - k) + sag, 90 + i, 1.2 * s, 14), { width: w, alpha: a });
+      chalkStroke(ctx, linePts(px, py, px + (mx - px) * (1 - k), py + (my - py) * (1 - k) + sag, 95 + i, 1.2 * s, 14), { width: w, alpha: a });
+    }
+    // Polvo de tiza desde el punto de rotura
+    const da = Math.max(0, 1 - bt / 2.2) * alphaAll;
+    if (da <= 0) return;
+    const [qx, qy] = posSnap[i];
+    const qa = Math.atan2(qy - o.cy, qx - o.cx);
+    const qsx = o.cx + Math.cos(qa) * (sunR + 6 * s);
+    const qsy = o.cy + Math.sin(qa) * (sunR + 6 * s);
+    const ox = qsx + (qx - qsx) * f;
+    const oy = qsy + (qy - qsy) * f;
+    const r = rng(500 + i);
+    ctx.save();
+    ctx.fillStyle = hex.chalk;
+    ctx.globalAlpha = da * 0.8;
+    for (let d = 0; d < 16; d++) {
+      const vx = (r() - 0.5) * 90 * s;
+      const vy = (-30 - r() * 70) * s;
+      const size = 1 + r() * 2.4;
+      ctx.fillRect(ox + vx * bt, oy + vy * bt + 0.5 * 260 * s * bt * bt, size, size);
+    }
+    ctx.restore();
+  });
 }

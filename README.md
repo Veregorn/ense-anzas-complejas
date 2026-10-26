@@ -1,10 +1,10 @@
-# Enseñanzas complejas: ¿simplificación o engaño?
+# Enseñanzas con fecha de caducidad
 
 Presentación animada para una disertación de 7 minutos (asignatura *Oratoria y liderazgo pedagógico en el aula*, Máster del Profesorado, UC3M).
 
-> **Simplificar no es engañar. Lo que engaña es ocultar que estás simplificando.**
+> **Simplificar no es engañar. Engañar es quitar la etiqueta.**
 
-La tesis se apoya en tres autores de didáctica: **Chevallard** (transposición didáctica: simplificar es inevitable, pero exige vigilancia epistemológica), **Ausubel** (lo que el alumno ya sabe condiciona todo lo que aprende después) y **Bruner** (currículo en espiral). La charla usa la gravedad como ejemplo. Empieza con la Tierra "atada" al Sol del colegio y llega hasta Einstein: la masa curva el espacio-tiempo, y una manzana cae porque cerca de la Tierra el tiempo pasa más despacio. Con esa historia se defiende una forma más honesta de enseñar lo complejo.
+Todo lo que se enseña en la ESO acaba caducando: el átomo como un sistema solar, "no se puede restar 7 a 5", el Sol que sujeta a la Tierra con una cuerda, el dopaje de semiconductores que se cuenta sin explicar. Que caduque no es el problema. El problema es enseñarlo sin etiqueta, porque la idea vieja no se borra (Taber; Shtulman y Valcarcel; Allaire-Duquette y colaboradores). La charla propone simplificar con vigilancia (Chevallard), en espiral (Bruner) y avisando de que es un modelo. Después reconstruye cada caso con una animación de la versión real, pensada para alumnos de secundaria, porque la curiosidad y la sorpresa favorecen el aprendizaje (Gruber; Brod) y el asombro, bien puesto, es la erótica de la enseñanza (Recalcati).
 
 El guion completo está en [`docs/guion.md`](docs/guion.md).
 
@@ -12,7 +12,7 @@ El guion completo está en [`docs/guion.md`](docs/guion.md).
 
 **▶ [veregorn.github.io/ense-anzas-complejas](https://veregorn.github.io/ense-anzas-complejas/)**
 
-Una vez abierta, pulsa `F` para verla a pantalla completa y `P` para abrir la vista de presentador. También puedes empezar en un punto concreto: por ejemplo, [LA FRASE (bloque 4, paso 6)](https://veregorn.github.io/ense-anzas-complejas/#4.6).
+Una vez abierta, pulsa `F` para verla a pantalla completa y `P` para abrir la vista de presentador. También puedes empezar en un punto concreto: por ejemplo, [la reconstrucción del átomo (bloque 4, paso 2)](https://veregorn.github.io/ense-anzas-complejas/#4.2).
 
 > Para la exposición en el aula es mejor el archivo `presentacion.html` (ver abajo): funciona sin internet. El enlace web sirve para ensayar desde cualquier equipo o compartirla.
 
@@ -47,7 +47,7 @@ La vista de presentador recuerda estos pasos hasta que das el primer clic.
 
 Puedes avanzar desde cualquiera de las dos ventanas. Si pulsas un punto del mapa de la derecha, saltas directamente a ese paso.
 
-**Para ensayar** desde un punto concreto, añade `#bloque.paso` a la dirección. Por ejemplo, `presentacion.html#4.6` abre directamente LA FRASE.
+**Para ensayar** desde un punto concreto, añade `#bloque.paso` a la dirección. Por ejemplo, `presentacion.html#9.3` abre directamente la frase final.
 
 ---
 
@@ -59,27 +59,31 @@ src/
   core/                  Motor: escenario 1920×1080, escenas, navegación, sincronía, texturas
   draw/
     chalk.ts             Dibujo "a tiza" con temblor de mano y grano
-    school-model.ts      El Sistema Solar del colegio (con hilos)
+    tag.ts               Etiquetas de supermercado, código de barras y sello
+    electron-cloud.ts    La nube electrónica en 3D (densidades reales del hidrógeno)
+    school-model.ts      El Sistema Solar del colegio (con hilos que se rompen)
     spacetime3d.ts       La malla del espacio-tiempo en 3D (Three.js)
   scenes/                Una escena por bloque del guion
-    s0-title.ts          Negro → título escrito a tiza
-    s1-school.ts         El modelo del colegio; los hilos se rompen
-    s2-spacetime.ts      La pizarra se convierte en espacio-tiempo; cita de Wheeler
-    s3-apple.ts          El flujo del tiempo, cabeza y pies, la manzana cae
-    s4-maps.ts           Newton ⊂ Einstein ⊂ ¿? · transposición didáctica · LA FRASE
-    s5-life.ts           La idea del colegio viaja toda la vida · Ausubel · lies-to-children
-    s6-spiral.ts         El currículo en espiral de Bruner
-    s7-closing.ts        Tres compromisos, la puerta de luz, gracias
+    c0-atom-air.ts       "Dibujad un átomo en el aire" · sello "Descartado en 1926" · ¿os engañaron?
+    c1-rules.ts          Trece reglas que caducan: la resta, el Sol con cuerda, el chip
+    c2-fridge.ts         Taber · Shtulman y Valcarcel · el cerebro que frena · la nevera · Ausubel
+    c3-label.ts          Chevallard · la etiqueta del profesor · la espiral de Bruner
+    c4-rec-atom.ts       Del átomo de tiza a la nube de probabilidad (1s → 2p) · Gruber
+    c5-rec-subtract.ts   El ascensor baja al garaje: 5 − 7 = −2
+    c6-rec-sun.ts        Los hilos se rompen y el espacio se curva
+    c7-rec-semis.ts      La red de silicio: fósforo (electrón libre) y boro (hueco) · el cine
+    c8-rec-final.ts      Ni adorno ni truco · Harp y Mayer · Recalcati
+    c9-closing.ts        Todo con etiqueta · la pregunta · la frase final · gracias
   presenter/             Vista de presentador
-  styles/                Tokens, escenario, escenas y presentador
+  styles/                Tokens, escenario, escenas, etiquetas y presentador
 ```
 
-**Dos mundos visuales.** La **pizarra** (verde, tiza, letra Kalam) representa el modelo del colegio. El **cosmos** (noche profunda, luz de estrellas, Newsreader) representa el modelo de Einstein. Al final, la pizarra vuelve, pero esta vez para enseñar con honestidad.
+**Tres mundos visuales.** La **pizarra** (verde, tiza, letra Kalam) es lo que se enseña en clase. La **noche** (luz de estrellas, Newsreader) es la evidencia y la versión real. Las **etiquetas de supermercado** (IBM Plex Mono) marcan cada modelo con su fecha de caducidad.
 
 **Cómo funciona una escena.** Cada escena extiende `Scene` y declara cuántos pasos tiene (`stepCount`).
 - `p(k, dur)` da el progreso 0..1 de la animación de entrada del paso `k`. Se usa para animar en canvas.
 - `fx(el, desde, hasta)` muestra un elemento HTML mientras el paso esté en ese rango.
-- Las animaciones de fondo (órbitas, flujo del tiempo) corren en `render`. Los cambios de idea solo ocurren al cambiar de paso.
+- Las animaciones de fondo (órbitas, nube, red cristalina) corren en `render`. Los cambios de idea solo ocurren al cambiar de paso.
 
 ## Desarrollo
 
@@ -96,14 +100,17 @@ Para editar el texto de la vista de presentador, cambia `src/content/script.ts`.
 
 El workflow `.github/workflows/pages.yml` compila y publica en [veregorn.github.io/ense-anzas-complejas](https://veregorn.github.io/ense-anzas-complejas/) en cada push a `main`. En **Settings → Pages**, la fuente debe ser **GitHub Actions** (no "Deploy from a branch", que publicaría el código sin compilar).
 
-## Fuentes de los datos
+## Fuentes
 
-- Hawking, S. (1988). *Breve historia del tiempo*, cap. 2, "Espacio y tiempo".
-- Wheeler, J. A.: "La materia le dice al espacio-tiempo cómo curvarse; el espacio-tiempo le dice a la materia cómo moverse".
-- Diferencia de ritmo del tiempo cerca de la superficie terrestre: g·h/c² ≈ 1,1 × 10⁻¹⁶ por metro (del orden de 1 / 10¹⁶).
-- Chou, C. W., Hume, D. B., Rosenband, T. y Wineland, D. J. (2010). "Optical Clocks and Relativity". *Science*, 329, 1630–1633 (relojes separados 33 cm).
-- Chevallard, Y. (1985). *La transposition didactique: du savoir savant au savoir enseigné* (ed. en castellano, Aique, 1991): transposición didáctica y vigilancia epistemológica.
-- Ausubel, D. P. (1968). *Educational Psychology: A Cognitive View*: "el factor más importante que influye en el aprendizaje es lo que el alumno ya sabe".
-- Bruner, J. (1960). *El proceso de la educación*: currículo en espiral.
-- Posner, Strike, Hewson y Gertzog (1982): ideas previas y cambio conceptual.
-- Stewart, I. y Cohen, J. (1999). *The Science of Discworld* (con T. Pratchett): *lies-to-children*.
+- Taber, K. S. *Pedagogic learning impediment*: errores provocados por la enseñanza ("el alumno solo es culpable de aprender lo que le enseñaron").
+- Karp, B., Bush, S. y Dougherty, B. (2014). "13 Rules That Expire". *Teaching Children Mathematics*, 21(1).
+- Shtulman, A. y Valcarcel, J. (2012). "Scientific knowledge suppresses but does not supplant earlier intuitions". *Cognition*, 124(2).
+- Allaire-Duquette, G. y colaboradores (2021). "An fMRI study of scientists with a Ph.D. in physics confronted with naive ideas in science". *npj Science of Learning*, 6.
+- Ausubel, D. P. (1968). *Psicología educativa: un punto de vista cognoscitivo*.
+- Chevallard, Y. (1985). *La transposición didáctica: del saber sabio al saber enseñado* (Aique, 1991).
+- Bruner, J. (1960). *El proceso de la educación*. Currículo en espiral.
+- Gruber, M. J., Gelman, B. D. y Ranganath, C. (2014). "States of curiosity modulate hippocampus-dependent learning via the dopaminergic circuit". *Neuron*, 84(2).
+- Brod, G., Hasselhorn, M. y Bunge, S. A. (2018). "When generating a prediction boosts learning: The element of surprise". *Learning and Instruction*, 55.
+- Harp, S. F. y Mayer, R. E. (1998). Detalles seductores. *Journal of Educational Psychology*, 90(3).
+- Recalcati, M. (2016). *La hora de clase. Por una erótica de la enseñanza*. Anagrama.
+- Física de las reconstrucciones: orbitales 1s y 2p del hidrógeno (Schrödinger, 1926); dopaje tipo n (fósforo, 5 electrones de valencia) y tipo p (boro, 3) del silicio; relatividad general.

@@ -1,21 +1,25 @@
 import type { SceneFactory } from '../core/deck';
-import { TitleScene } from './s0-title';
-import { SchoolScene } from './s1-school';
-import { SpacetimeScene } from './s2-spacetime';
-import { AppleScene } from './s3-apple';
-import { MapsScene } from './s4-maps';
-import { LifeScene } from './s5-life';
-import { SpiralScene } from './s6-spiral';
-import { ClosingScene } from './s7-closing';
+import { AtomAirScene } from './c0-atom-air';
+import { RulesScene } from './c1-rules';
+import { FridgeScene } from './c2-fridge';
+import { LabelScene } from './c3-label';
+import { RecAtomScene } from './c4-rec-atom';
+import { RecSubtractScene } from './c5-rec-subtract';
+import { RecSunScene } from './c6-rec-sun';
+import { RecSemisScene } from './c7-rec-semis';
+import { RecFinalScene } from './c8-rec-final';
+import { ClosingScene } from './c9-closing';
 
-/** Una escena por bloque del guion, en orden (ver content/script.ts). */
+/** Una escena por bloque del guion (ver content/script.ts). El bloque 4 se reparte en cinco escenas. */
 export const SCENES: SceneFactory[] = [
-  () => new TitleScene(),
-  () => new SchoolScene(),
-  () => new SpacetimeScene(),
-  () => new AppleScene(),
-  () => new MapsScene(),
-  () => new LifeScene(),
-  () => new SpiralScene(),
+  () => new AtomAirScene(),
+  () => new RulesScene(),
+  () => new FridgeScene(),
+  () => new LabelScene(),
+  () => new RecAtomScene(),
+  () => new RecSubtractScene(),
+  () => new RecSunScene(),
+  () => new RecSemisScene(),
+  () => new RecFinalScene(),
   () => new ClosingScene(),
 ];

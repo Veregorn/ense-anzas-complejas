@@ -1,212 +1,187 @@
-# Enseñanzas complejas: ¿simplificación o engaño?
+# Enseñanzas con fecha de caducidad
 
-**Disertación · Oratoria y liderazgo pedagógico en el aula · 7 minutos**
+**¿Simplificación o engaño?**
+Disertación para Oratoria y liderazgo pedagógico en el aula · 7 minutos
 
-> **Idea central:** Simplificar no es engañar. Lo que engaña es ocultar que estás simplificando.
+> **Idea central.** Todo lo que enseñamos acaba caducando, y eso no es un problema. El problema es quitarle la etiqueta. Y hoy, además, tenemos medios para enseñar la versión real sin perder a nadie por el camino.
 >
-> **Vehículo:** la gravedad. Del "Sol que tira de los planetas" a "el tiempo que se frena cerca de la Tierra".
+> **Frase para el final.** Simplificar no es engañar. Engañar es quitar la etiqueta.
 
-### Fundamento teórico
+---
 
-La tesis se apoya en tres autores de didáctica y psicología de la educación:
+## Fundamento teórico
 
-1. **El problema es inevitable: Chevallard, *transposición didáctica* (1985).** El profesor transforma siempre el "saber sabio" en "saber enseñado". Simplificar es legítimo, pero exige **vigilancia epistemológica**: no perder de vista la distancia entre lo que se enseña y lo que es. *(Bloque 4)*
-2. **Por qué importa: Ausubel (1968) y el cambio conceptual (Posner et al., 1982).** "El factor más importante que influye en el aprendizaje es lo que el alumno ya sabe". Una simplificación presentada como verdad final se convierte en el cimiento de lo que viene después, y desmontarla cuesta mucho. *(Bloque 5)*
-3. **La solución: Bruner, *currículo en espiral* (1960).** Cualquier materia puede enseñarse en cualquier etapa "de alguna forma intelectualmente honesta", volviendo sobre ella con más profundidad sin contradecir lo anterior. *(Bloque 6)*
+La tesis se apoya en cuatro patas:
+
+1. **El fenómeno tiene nombre.** Keith Taber llama *impedimento pedagógico de aprendizaje* a los errores que no nacen de la intuición del alumno, sino de cómo se le enseñó. Su ejemplo más conocido es el átomo como un sistema solar en miniatura. *(Bloques 0 y 2)*
+2. **Las ideas viejas no se borran.** Shtulman y Valcarcel (2012) y Allaire-Duquette y colaboradores (2021) muestran que el conocimiento científico suprime las ideas ingenuas, pero no las sustituye. Ausubel recuerda que lo que el alumno ya sabe condiciona todo lo que aprende después. *(Bloque 2)*
+3. **Cómo simplificar con honestidad.** Chevallard (transposición didáctica y vigilancia epistemológica) y Bruner (currículo en espiral). *(Bloque 3)*
+4. **Por qué la versión real, bien contada, funciona mejor.** La curiosidad (Gruber y colaboradores, 2014) y la sorpresa (Brod, Hasselhorn y Bunge, 2018) favorecen el aprendizaje. Recalcati habla de la erótica de la enseñanza, de transmitir el deseo de saber. Con un matiz: los detalles seductores (Harp y Mayer, 1998) distraen, así que el asombro tiene que estar en el concepto. *(Bloque 4)*
+
+La charla aplica lo que defiende: empieza con una pregunta y una predicción del público, busca la sorpresa y el humor, reconstruye cada caso con su versión real pensada para un alumno de secundaria y cierra con una reflexión.
 
 ---
 
 ## Cómo leer este guion
 
-Cada bloque tiene tres partes:
+- **Pantalla**: lo que aparece detrás de ti. Cada cambio de idea es un clic.
+- **Dices**: el texto completo, para ensayar. No hace falta memorizarlo palabra por palabra.
+- **Anclas**: las palabras clave que tienes que recordar el día de la exposición.
 
-- **Pantalla**: lo que aparece detrás de ti. La animación es tu guía: cuando cambia, cambias de idea.
-- **Dices**: el texto completo. No hay que memorizarlo palabra por palabra; sirve para ensayar.
-- **Anclas**: 3-4 palabras clave. Son lo único que tienes que recordar el día de la exposición.
-
-Las indicaciones entre corchetes son de actuación: *[pausa]*, *[mirar al público]*...
+Las indicaciones entre corchetes son de actuación: *[pausa]*, *[mirar al público]*…
 
 ---
 
-## Bloque 0 · Silencio inicial (0:00 – 0:15)
+## Bloque 0 · El átomo dibujado en el aire (0:00 – 0:40)
 
-**Pantalla:** negro. Aparece despacio el título.
+**Pantalla:** pizarra vacía. Cuando el público ya ha dibujado, aparece a tiza el átomo de siempre: núcleo y electrones en órbitas. Después, un sello encima: *"Descartado en 1926"*.
 
 **Dices:**
-*[Esperar 3 segundos en silencio. Mirar al público.]*
-Quiero empezar con algo que os enseñaron a todos.
+*[Sin saludar. Mirar al público. Tres segundos de silencio.]*
+Antes de empezar, os pido una cosa. Levantad un dedo… y dibujad en el aire un átomo.
+*[Dibujarlo tú también, con órbitas. Esperar a que lo hagan.]*
+Casi todos habéis dibujado lo mismo: un núcleo en el centro y electrones dando vueltas, como planetas alrededor del Sol.
+*[Clic: aparece el sello.]*
+Pues acabáis de dibujar algo que la física descartó en 1926. Hace casi cien años. Y aun así, es lo que os sale.
+*[Pausa.]*
+Así que os pregunto: ¿os engañaron?
 
-**Anclas:** silencio · "algo que os enseñaron"
+**Anclas:** dedo en el aire · 1926 · ¿os engañaron?
 
 ---
 
-## Bloque 1 · El modelo del colegio (0:15 – 0:55)
+## Bloque 1 · Reglas que caducan (0:40 – 1:50)
 
-**Pantalla:** el Sistema Solar "de colegio". Cada planeta gira unido al Sol por un hilo de luz. Al final del bloque, los hilos se rompen y los planetas **siguen girando**.
+**Pantalla:** cada regla aparece escrita a tiza y, al clic, se le pega una etiqueta de supermercado. La resta: *"Consumir preferentemente antes de 1º de ESO"*. El Sistema Solar del colegio, con los planetas atados al Sol por hilos: *"Consumir preferentemente antes de leer a Einstein"*. Los semiconductores: *"Ingredientes: no consta"*.
 
 **Dices:**
-En el colegio nos pusieron delante esta imagen. El Sol en el centro, los planetas girando, y una explicación muy sencilla: el Sol atrae a los planetas con una fuerza, la gravedad, y por eso no se escapan. Como si cada planeta estuviera atado al Sol con una cuerda invisible.
+En didáctica de las matemáticas hay un artículo muy citado que se titula *Trece reglas que caducan*. Seguro que os suenan.
 
-Me lo creí. Lo estudié. Lo puse en un examen. Y saqué buena nota.
+"No se puede restar siete a cinco."
+*[Clic: etiqueta.]*
+En Primaria, esa respuesta era un diez. En 1º de ESO, la misma respuesta es un cero.
 
-Años después cayó en mis manos un libro: *Breve historia del tiempo*, de Stephen Hawking. Y en el capítulo dos, Hawking me dijo algo que me dejó sin suelo bajo los pies.
+En ciencias pasa lo mismo. "El Sol atrae a los planetas como si los atara con una cuerda invisible."
+*[Clic: etiqueta.]*
 
-*[Los hilos se rompen]*
+Y a veces ni siquiera se simplifica: directamente no se explica. En Tecnología se cuenta que a los semiconductores se les añaden impurezas y que así conducen mejor. ¿Por qué?
+*[Clic: "Ingredientes: no consta".]*
+Hay que creérselo.
 
-Esa cuerda no existe.
+*[Pausa.]*
+Pero ojo: que una regla caduque no es el problema. Todo lo que enseñamos caduca. El problema es otro.
 
-**Anclas:** cuerda invisible · buena nota · Hawking · "no existe"
+**Anclas:** trece reglas · 5 − 7 · la cuerda del Sol · impurezas · "ingredientes: no consta" · "el problema es otro"
 
 ---
 
-## Bloque 2 · Lo que de verdad pasa (0:55 – 1:50)
+## Bloque 2 · Lo caducado se queda en la nevera (1:50 – 3:00)
 
-**Pantalla:** una malla (el espacio-tiempo) se hunde bajo el Sol. La Tierra recorre la curva sin que nada la sujete. Después, la cita de Wheeler.
+**Pantalla:** la frase de Taber. Después, los dos estudios con su dato clave. Al final, una nevera con un yogur caducado dentro.
 
 **Dices:**
-Según Einstein, la gravedad no es una fuerza. Una masa como el Sol curva el espacio-tiempo a su alrededor. Y la Tierra no está atada a nada: simplemente avanza lo más recto que puede… por un espacio que está curvado. Y ese "lo más recto posible", visto desde fuera, es una órbita.
+Keith Taber, uno de los grandes de la didáctica de las ciencias, le ha puesto nombre: *impedimento pedagógico*. Son errores que no vienen de la intuición del alumno, sino de cómo se lo enseñamos. Y dice algo demoledor: en esos casos, el alumno solo es culpable de haber aprendido lo que le enseñaron.
 
-Un físico, John Wheeler, lo resumió en una frase:
+¿Y se arregla después? No del todo. En 2012, Shtulman y Valcarcel pusieron a ciento cincuenta universitarios de ciencias a contestar "verdadero o falso" a toda velocidad. Cuando la ciencia contradecía la idea de siempre, tardaban más y fallaban más. La idea vieja seguía ahí.
 
-*[Leer despacio la cita en pantalla]*
-"La materia le dice al espacio-tiempo cómo curvarse. El espacio-tiempo le dice a la materia cómo moverse."
+En 2021, otro equipo lo repitió con doctores en física dentro de un escáner. Su cerebro tenía que frenar activamente la idea ingenua. *[Pausa.]* Doctores en física.
 
-**Anclas:** no es una fuerza · lo más recto posible · Wheeler
+Lo caducado no se tira solo. Se queda en la nevera. Y como decía Ausubel, lo que el alumno ya sabe es lo que más condiciona todo lo que aprenderá después.
+
+**Anclas:** Taber · "culpable de aprender lo que le enseñaron" · 150 universitarios · doctores en física · la nevera
 
 ---
 
-## Bloque 3 · La manzana (1:50 – 3:15)
+## Bloque 3 · Poner la etiqueta (3:00 – 3:50)
 
-**Pantalla:** una manzana en su rama. Aparece el flujo del tiempo: estelas que corren más deprisa arriba y más despacio abajo. Una persona con dos relojes (cabeza y pies): el de los pies va más lento (exagerado). Después: "nada está quieto"; un coche, visto desde arriba, con las ruedas de abajo en tiempo lento que gira solo; la manzana hace lo mismo y cae. Al final, los datos: *1 / 10¹⁶* (= 1 / 10 000 000 000 000 000) · *2010 · 33 cm*.
+**Pantalla:** *saber sabio → saber enseñado* (Chevallard). Después, la etiqueta como herramienta, con sus tres líneas: *esto es un modelo · vale hasta aquí · hay más*. Al final, la espiral de Bruner.
 
 **Dices:**
-Vale, eso con planetas. ¿Pero una manzana? ¿Por qué cae una manzana que está quieta en su rama?
+En didáctica, esto también tiene nombre. Yves Chevallard lo llamó transposición didáctica: todo profesor transforma el saber de la ciencia en algo que se pueda enseñar. Es inevitable, y es legítimo. Pero exige vigilancia epistemológica.
 
-Aquí viene lo más bonito. Lo que está curvado cerca de la Tierra no es tanto el espacio… es el tiempo. Cuanto más cerca estás de una masa, más despacio pasa el tiempo.
+Traducido al aula, es poner la etiqueta. Decir "esto es un modelo". Decir hasta dónde vale. Y decir que hay más.
 
-Vuestros pies, ahora mismo, viven un poquito más despacio que vuestra cabeza.
+Bruner lo completó hace más de sesenta años: cualquier materia puede enseñarse a cualquier edad de una forma intelectualmente honesta. En espiral. Volviendo a la misma idea cada vez más a fondo, sin tener que desmentir la anterior.
 
-*[Pausa. Dejar que reaccionen.]*
-
-Ahora fijaos: nada está realmente quieto. Aunque la manzana no se mueva, avanza por el tiempo, segundo a segundo.
-
-Imaginad un coche que mete las ruedas de un lado en el barro. Esas ruedas avanzan más despacio… y el coche gira hacia ese lado, sin que nadie toque el volante.
-
-A la manzana le pasa lo mismo: su parte de abajo avanza por el tiempo un poquito más despacio que la de arriba. Así que su camino gira. Hacia abajo. *[Pausa.]* Eso es caer.
-
-La diferencia es ridícula: una parte entre diez elevado a dieciséis por cada metro de altura. Y aun así, en 2010 la midieron con dos relojes separados solo treinta y tres centímetros.
-
-La manzana no cae porque la Tierra tire de ella. Cae porque, cerca de la Tierra, el tiempo pasa más despacio.
-
-**Anclas:** ¿y la manzana? · el tiempo · vuestros pies · nada está quieto · coche en el barro · 10¹⁶ · 33 cm
-
-> **La respuesta que debe quedarse en la cabeza del público:** *"La manzana cae porque abajo el tiempo va más lento, y todo lo que avanza gira hacia donde el tiempo va más lento."*
+**Anclas:** Chevallard · vigilancia · la etiqueta en tres líneas · Bruner · espiral
 
 ---
 
-## Bloque 4 · ¿Me engañaron? (3:15 – 4:20)
+## Bloque 4 · La reconstrucción (3:50 – 6:15)
 
-**Pantalla:** vuelve, en pequeño, el Sistema Solar del colegio. Después, mapas que se contienen unos a otros: "Newton" dentro de "Einstein", y este dentro de un "¿?". Luego, la transposición didáctica de Chevallard: *saber sabio → saber enseñado* y *vigilancia epistemológica*. Al final, **la frase**, sola en pantalla.
+**Pantalla:** vuelven, uno a uno, los casos caducos del principio, y cada uno se transforma en su versión real, contada como se le contaría a un alumno de secundaria:
+
+1. **El átomo.** Las bolitas en órbita se desvanecen. Aparecen puntos sueltos, uno a uno, como fotos de dónde está el electrón. Al acumularse, forman una nube. La nube toma sus formas: una esfera y, después, un par de lóbulos. Etiqueta: *"Modelo de nube. Válido en la ESO. En Bachillerato: orbitales."*
+2. **La resta.** La recta numérica se alarga hacia la izquierda del cero, como las plantas de un garaje. Desde el 5, siete saltos hacia abajo hasta llegar al −2.
+3. **El Sol.** Los hilos se rompen y los planetas siguen girando. La pizarra se convierte en una malla que se hunde bajo el Sol. Etiqueta: *"Modelo de la sábana. También es un modelo."*
+4. **Los semiconductores.** Una red de átomos de silicio, cada uno dándose la mano con cuatro vecinos. Entra un átomo de fósforo y queda un electrón suelto que se pasea por la red. Entra uno de boro y queda un hueco que se desplaza como un asiento libre en una fila de cine. Etiqueta: *"Modelo de las manos. Válido en la ESO. En Bachillerato: bandas de energía."*
 
 **Dices:**
-Así que la pregunta es inevitable: ¿me engañaron en el colegio?
+Pero hoy podemos ir más allá de la etiqueta. Bohr dibujaba con tiza. Nosotros tenemos animaciones. Así que vamos a reconstruir todo lo de antes, como se lo contaríamos hoy a un alumno de 3º de ESO.
 
-La respuesta honesta es: no del todo. Newton no es mentira. Sus ecuaciones son tan buenas que con ellas llevamos al ser humano a la Luna. Newton es un mapa. Un mapa excelente… de una parte del territorio.
+El átomo. *[Clic.]* El electrón no da vueltas como un planeta. Si pudiéramos fotografiarlo, cada foto lo pillaría en un sitio distinto. Juntad miles de fotos… *[la nube se forma]* y aparece una nube. Esa nube es el átomo. Y tiene formas preciosas.
 
-Einstein es un mapa mejor. Y probablemente algún día alguien dibujará uno mejor todavía.
+*[Pausa.]* ¿Habéis notado ese pequeño "oh"? Eso es curiosidad, y no es un detalle menor. En 2014, Gruber y su equipo comprobaron que, cuando sentimos curiosidad, se activa el circuito de la dopamina y recordamos mejor. Incluso lo que viene justo después.
 
-En didáctica esto tiene nombre: transposición didáctica. Yves Chevallard lo explicó en 1985: todo profesor convierte el saber de la ciencia en saber enseñable. Es inevitable y es legítimo. Pero exige vigilancia epistemológica: no perder nunca de vista la distancia entre lo que enseñas y lo que es.
+La resta. *[Clic.]* Los números no se acaban en el cero. Como en el ascensor de un garaje: desde la planta cinco, bajas siete y llegas a la menos dos.
 
-El problema no fue que me enseñaran un mapa. El problema es que nadie me dijo que era un mapa.
+El Sol. *[Clic: los hilos se rompen.]* No hay cuerda. El Sol curva el espacio a su alrededor y los planetas siguen esa curva, como canicas en una sábana hundida. Con su etiqueta, porque la sábana también es un modelo.
 
-*[Pausa. Mirar al público. Decirlo despacio.]*
+Los semiconductores. *[Clic.]* Cada átomo de silicio se da la mano con cuatro vecinos. Si metemos uno de fósforo, que tiene cinco manos, le sobra una: un electrón libre para moverse. Si metemos uno de boro, que solo tiene tres, queda un hueco. Y el hueco se mueve, como un asiento libre en el cine cuando la gente se va cambiando de sitio.
 
-Simplificar no es engañar. Lo que engaña es ocultar que estás simplificando.
+Fijaos en que ninguna de estas animaciones es un adorno. Y eso importa: las anécdotas llamativas pero irrelevantes, los detalles seductores, distraen y empeoran el aprendizaje. La sorpresa tiene que estar en el concepto. Massimo Recalcati lo llama la erótica de la enseñanza: no transmitir solo información, sino el deseo de saber.
 
-*[Pausa larga: 3 segundos]*
-
-**Anclas:** ¿me engañaron? · la Luna · mapas · Chevallard · vigilancia · LA FRASE
+**Anclas:** "más allá de la etiqueta" · nube de fotos · "ese pequeño oh" · dopamina · garaje · sábana · manos y hueco · no es adorno · Recalcati
 
 ---
 
-## Bloque 5 · Los que nunca se enteran (4:20 – 5:20)
+## Bloque 5 · Cierre (6:15 – 7:00)
 
-**Pantalla:** una línea de vida, de los 6 a los 80 años. La "cuerda" del colegio acompaña a esa persona durante toda la línea. Después, la cita de Ausubel. Al final, el término *lies-to-children*.
-
-**Dices:**
-Yo tuve suerte: me cayó un libro en las manos. Pero pensad en la mayoría de nuestros alumnos. La inmensa mayoría nunca volverá a estudiar física. Para ellos, lo que les contemos en el aula no es una primera versión. Es la versión definitiva. La que se van a llevar toda la vida.
-
-Y eso tiene un coste. David Ausubel lo resumió así: el factor más importante que influye en el aprendizaje es lo que el alumno ya sabe. Si lo que ya sabe es un modelo cerrado, todo lo nuevo se construye encima.
-
-Por eso las ideas erróneas que aprendemos de pequeños son de las más difíciles de desaprender. Incluso tienen nombre en inglés: *lies-to-children*. Mentiras para niños.
-
-**Anclas:** tuve suerte · versión definitiva · Ausubel · mentiras para niños
-
----
-
-## Bloque 6 · La alternativa: la espiral (5:20 – 6:15)
-
-**Pantalla:** una espiral que sube. En cada vuelta aparece un nivel: Primaria → ESO → Bachillerato → Universidad. La misma idea, cada vez más profunda.
+**Pantalla:** vuelven, a tiza, el átomo, la resta, la cuerda del Sol y los semiconductores, cada uno ahora con su etiqueta. Al final, la frase sola en pantalla.
 
 **Dices:**
-¿Hay alternativa? En 1960, Jerome Bruner escribió esto: cualquier materia puede enseñarse a cualquier niño, en cualquier etapa, de una forma intelectualmente honesta.
+Todo lo que enseñamos caducará algún día. También la nube, también la sábana. Eso no lo podemos evitar.
 
-Imaginad la gravedad enseñada así. En Primaria: "las cosas con mucha masa deforman el espacio y el tiempo a su alrededor". En la ESO: "el tiempo va más lento cerca de la Tierra, y por eso caen las cosas". En Bachillerato: Newton, presentado como lo que es, una aproximación brillante. Y en la universidad, las ecuaciones.
+Lo que sí está en nuestras manos es que nuestros alumnos lo sepan.
 
-Cada curso, más profundo. Ninguno contradice al anterior. Nadie tiene que decir nunca: "olvidad lo que os enseñaron".
+*[Pausa. Mirar al público.]*
+Así que os dejo con una pregunta: ¿qué estáis enseñando vosotros sin etiqueta?
 
-**Anclas:** Bruner · honesta · Primaria-ESO-Bach-Uni · nadie dice "olvidad"
-
----
-
-## Bloque 7 · Cierre (6:15 – 7:00)
-
-**Pantalla:** vuelve el Sistema Solar del principio, pero ahora sin hilos y sobre la malla curvada. Aparecen, uno a uno, los tres compromisos. Final: la frase central.
-
-**Dices:**
-Hace treinta años, esto no cabía en una pizarra. Hoy, todo lo que habéis visto se prepara en unas horas. Ya no tenemos esa excusa.
-
-Así que os propongo tres cosas para cuando estéis en el aula:
-
-Decid "esto es un modelo".
-Enseñad dónde se rompe.
-Y dejad siempre la puerta abierta.
-
-*[Pausa]*
-
-Al niño que yo fui no le hacía falta que le contaran toda la verdad. Le hacía falta que alguien le dijera que había más.
+*[Pausa larga. Clic: la frase final.]*
+Simplificar no es engañar. Engañar es quitar la etiqueta.
 
 Gracias.
 
-**Anclas:** ya no hay excusa · modelo / dónde se rompe / puerta abierta · "había más"
+**Anclas:** todo caducará · también la nube · que lo sepan · "¿sin etiqueta?" · la frase final
 
 ---
 
-## Chuleta de bolsillo (solo las anclas)
+## Chuleta de bolsillo
 
 | # | Tiempo | Anclas |
 |---|---|---|
-| 0 | 0:00 | silencio · "algo que os enseñaron" |
-| 1 | 0:15 | cuerda invisible · buena nota · Hawking · "no existe" |
-| 2 | 0:55 | no es una fuerza · lo más recto posible · Wheeler |
-| 3 | 1:50 | ¿y la manzana? · el tiempo · vuestros pies · nada está quieto · coche en el barro · 10¹⁶ · 33 cm |
-| 4 | 3:15 | ¿me engañaron? · la Luna · mapas · Chevallard · vigilancia · LA FRASE |
-| 5 | 4:20 | tuve suerte · versión definitiva · Ausubel · mentiras para niños |
-| 6 | 5:20 | Bruner · Primaria-ESO-Bach-Uni · nadie dice "olvidad" |
-| 7 | 6:15 | ya no hay excusa · 3 compromisos · "había más" |
+| 0 | 0:00 | dedo en el aire · 1926 · ¿os engañaron? |
+| 1 | 0:40 | trece reglas · 5 − 7 · la cuerda del Sol · ingredientes: no consta |
+| 2 | 1:50 | Taber · 150 universitarios · doctores en física · la nevera |
+| 3 | 3:00 | Chevallard · la etiqueta en tres líneas · Bruner |
+| 4 | 3:50 | nube de fotos · "ese pequeño oh" · garaje · sábana · manos y hueco · Recalcati |
+| 5 | 6:15 | todo caducará · ¿sin etiqueta? · frase final |
 
 ---
 
 ## Datos y fuentes (por si te preguntan)
 
-- **Hawking, S.** *Breve historia del tiempo* (1988), cap. 2, "Espacio y tiempo": la gravedad como curvatura del espacio-tiempo; los cuerpos siguen geodésicas.
-- **Wheeler, J. A.**: "La materia le dice al espacio-tiempo cómo curvarse; el espacio-tiempo le dice a la materia cómo moverse".
-- **Diferencia en el ritmo del tiempo** cerca de la superficie terrestre: g·h/c² ≈ 1,1 × 10⁻¹⁶ por metro de altura.
-- **Chou, Hume, Rosenband y Wineland** (2010), *Science*, "Optical Clocks and Relativity": relojes ópticos del NIST que detectan la diferencia con 33 cm de altura.
-- **Newton** sobre la acción a distancia (carta a Bentley, 1693): le parecía "un absurdo tan grande" que ningún pensador competente podría aceptarlo.
-- **Bruner, J.** *El proceso de la educación* (1960): "cualquier materia puede enseñarse eficazmente, de alguna forma intelectualmente honesta, a cualquier niño en cualquier etapa del desarrollo". Origen del **currículo en espiral**.
-- **Chevallard, Y.** (1985). *La transposition didactique: du savoir savant au savoir enseigné*. Ed. en castellano: *La transposición didáctica: del saber sabio al saber enseñado* (Aique, 1991). Conceptos: transposición didáctica y vigilancia epistemológica.
-- **Ausubel, D. P.** (1968). *Educational Psychology: A Cognitive View* (en castellano, *Psicología educativa: un punto de vista cognoscitivo*, Trillas). "El factor más importante que influye en el aprendizaje es lo que el alumno ya sabe. Averígüese esto y enséñese consecuentemente." Aprendizaje significativo.
-- **Ideas previas / *misconceptions*** y cambio conceptual: Posner, Strike, Hewson y Gertzog (1982), *Science Education*, 66(2).
-- **Diferencia en el ritmo del tiempo**, por si piden el número exacto: 1,1 × 10⁻¹⁶ por metro, del orden de 1 / 10¹⁶.
-- ***Lies-to-children***: término popularizado por Stewart y Cohen en *The Science of Discworld* (1999), con Terry Pratchett.
+- **Modelo atómico.** El modelo planetario de Bohr es de 1913. La mecánica cuántica de Schrödinger (1926) sustituye las órbitas por orbitales: zonas donde es probable encontrar al electrón, no trayectorias. La "nube de fotos" es una forma fiel de representarlo: la densidad de puntos indica la probabilidad.
+- **Números enteros.** En el currículo de Matemáticas de 1º de ESO se introducen los números enteros y la recta numérica con negativos.
+- **Karp, B., Bush, S. y Dougherty, B.** (2014). "13 Rules That Expire". *Teaching Children Mathematics*, 21(1). Reglas y trucos que se enseñan y luego dejan de ser ciertos.
+- **Taber, K. S.** *Pedagogic learning impediment*: errores provocados por la enseñanza, como tomar al pie de la letra el átomo planetario. Según Taber, en esos casos el alumno "solo es culpable de aprender lo que le enseñaron".
+- **Shtulman, A. y Valcarcel, J.** (2012). "Scientific knowledge suppresses but does not supplant earlier intuitions". *Cognition*, 124(2). 150 universitarios, 200 afirmaciones en 10 áreas de la ciencia.
+- **Allaire-Duquette, G., Brault Foisy, L.-M., Potvin, P., Riopel, M., Larose, M. y Masson, S.** (2021). "An fMRI study of scientists with a Ph.D. in physics confronted with naive ideas in science". *npj Science of Learning*, 6. 25 doctores en física; más lentitud, menos acierto y más actividad en zonas frontales de control inhibitorio.
+- **Ausubel, D. P.** (1968). *Psicología educativa: un punto de vista cognoscitivo*. "El factor más importante que influye en el aprendizaje es lo que el alumno ya sabe."
+- **Chevallard, Y.** (1985). *La transposición didáctica: del saber sabio al saber enseñado* (Aique, 1991).
+- **Bruner, J.** (1960). *El proceso de la educación*. Currículo en espiral.
+- **Gruber, M. J., Gelman, B. D. y Ranganath, C.** (2014). "States of curiosity modulate hippocampus-dependent learning via the dopaminergic circuit". *Neuron*, 84(2).
+- **Brod, G., Hasselhorn, M. y Bunge, S. A.** (2018). "When generating a prediction boosts learning: The element of surprise". *Learning and Instruction*, 55.
+- **Recalcati, M.** (2016). *La hora de clase. Por una erótica de la enseñanza*. Anagrama.
+- **Harp, S. F. y Mayer, R. E.** (1998). Detalles seductores: la información interesante pero irrelevante empeora la comprensión de textos científicos. *Journal of Educational Psychology*, 90(3).
+- **Semiconductores.** El silicio tiene 4 electrones de valencia; el fósforo, 5 (dopaje tipo n, electrón libre); el boro, 3 (dopaje tipo p, hueco).

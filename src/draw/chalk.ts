@@ -167,3 +167,18 @@ export function applyGrain(ctx: CanvasRenderingContext2D, strength = 1) {
   }
   ctx.restore();
 }
+
+/** Elipse a mano (para las órbitas del átomo de Bohr). */
+export function ellipsePts(cx: number, cy: number, rx: number, ry: number, rot: number, seed = 1, amp = 1.8, n = 140): Pt[] {
+  const pts: Pt[] = [];
+  const c = Math.cos(rot);
+  const s = Math.sin(rot);
+  for (let i = 0; i <= n; i++) {
+    const a = (TAU * i) / n * 1.03;
+    const w = wobble(seed, i, amp);
+    const x = (rx + w) * Math.cos(a);
+    const y = (ry + w) * Math.sin(a);
+    pts.push([cx + x * c - y * s, cy + x * s + y * c]);
+  }
+  return pts;
+}

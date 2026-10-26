@@ -1,6 +1,7 @@
 import './styles/tokens.css';
 import './styles/stage.css';
 import './styles/scenes.css';
+import './styles/tags.css';
 import './styles/presenter.css';
 import { loadFonts } from './core/fonts';
 import { installTextures } from './core/textures';

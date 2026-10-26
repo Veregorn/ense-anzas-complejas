@@ -2,17 +2,22 @@
  * Fuentes incluidas en el propio proyecto: la presentación no depende de internet.
  *  - Newsreader: la voz del cosmos (serif editorial con tamaño óptico).
  *  - Kalam: la voz de la tiza (escritura a mano).
+ *  - IBM Plex Mono: la voz de las etiquetas de supermercado y del sello.
  */
 import newsNormal from '@fontsource-variable/newsreader/files/newsreader-latin-opsz-normal.woff2?url';
 import newsItalic from '@fontsource-variable/newsreader/files/newsreader-latin-opsz-italic.woff2?url';
 import kalam400 from '@fontsource/kalam/files/kalam-latin-400-normal.woff2?url';
 import kalam700 from '@fontsource/kalam/files/kalam-latin-700-normal.woff2?url';
+import mono500 from '@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-500-normal.woff2?url';
+import mono700 from '@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-700-normal.woff2?url';
 
 const FACES: [string, string, FontFaceDescriptors][] = [
   ['Newsreader', newsNormal, { weight: '200 800', style: 'normal' }],
   ['Newsreader', newsItalic, { weight: '200 800', style: 'italic' }],
   ['Kalam', kalam400, { weight: '400' }],
   ['Kalam', kalam700, { weight: '700' }],
+  ['IBM Plex Mono', mono500, { weight: '500' }],
+  ['IBM Plex Mono', mono700, { weight: '700' }],
 ];
 
 export async function loadFonts() {

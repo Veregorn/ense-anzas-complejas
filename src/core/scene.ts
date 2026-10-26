@@ -112,6 +112,16 @@ export abstract class Scene {
     return el;
   }
 
+  /** Sacude la escena (cuando un sello o una etiqueta "golpean"). */
+  protected shake(delayMs = 0) {
+    window.setTimeout(() => {
+      this.el.classList.remove('shake');
+      void this.el.offsetWidth;
+      this.el.classList.add('shake');
+      window.setTimeout(() => this.el.classList.remove('shake'), 450);
+    }, delayMs);
+  }
+
   protected canvas(className = '', parent: HTMLElement = this.el) {
     const c = new Canvas2D(this.stage, parent, className);
     this.canvases.push(c);
