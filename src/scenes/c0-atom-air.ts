@@ -42,11 +42,11 @@ export function drawBohrAtom(ctx: CanvasRenderingContext2D, cx: number, cy: numb
 
 /**
  * Bloque 0 · "Dibujad en el aire un átomo." Pizarra vacía → el átomo de siempre →
- * sello "Descartado en 1926" → la pregunta.
+ * sello "Descartado en 1926" → la pregunta → el título.
  */
 export class AtomAirScene extends Scene {
   readonly id = 'atomo-aire';
-  readonly stepCount = 4;
+  readonly stepCount = 5;
   private cv!: Canvas2D;
 
   protected build() {
@@ -55,7 +55,7 @@ export class AtomAirScene extends Scene {
     this.fx(this.html('p', 'chalk write abs aa-hint', 'Dibujad un átomo en el aire'), 0, 1);
     this.fx(this.html('div', 'abs aa-stamp', stampHTML('Descartado', 'en 1926', -11)).firstElementChild!, 2);
     this.fx(this.html('p', 'chalk write abs aa-question', '¿Os<br>engañaron?'), 3);
-    this.fx(this.html('p', 'chalk yellow write abs aa-title', 'Enseñanzas con fecha de caducidad'), 3);
+    this.fx(this.html('p', 'chalk write abs aa-title', 'Enseñanzas <span>con fecha de caducidad</span>'), 4);
   }
 
   protected onStep(step: number, prev: number, instant: boolean) {

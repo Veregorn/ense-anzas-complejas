@@ -1,12 +1,42 @@
 import { Scene } from '../core/scene';
 import type { Canvas2D } from '../core/stage';
-import { clamp01, easeOutCubic } from '../core/math';
+import { clamp01, easeOutCubic, rng } from '../core/math';
 import { applyGrain, chalkHatchCircle, chalkStroke, chalkText, circlePts, linePts, type Pt } from '../draw/chalk';
 import { tagHTML } from '../draw/tag';
-import { drawBohrAtom } from './c0-atom-air';
 
 const XS = [250, 730, 1190, 1670];
 const Y = 360;
+
+/** Puntos de la nube 2p, muestreados como en la reconstrucción (densidad ∝ r² e^(−r) cos²θ), en 2D. */
+const CLOUD: [number, number, number][] = (() => {
+  const r = rng(1926);
+  const pts: [number, number, number][] = [];
+  while (pts.length < 1100) {
+    const z = 2 * r() - 1;
+    if (r() > z * z) continue;
+    const a = 2 * Math.PI * r();
+    const q = Math.sqrt(1 - z * z);
+    let rad = 0;
+    for (let i = 0; i < 5; i++) rad -= Math.log(1 - r());
+    rad *= 16;
+    pts.push([q * Math.cos(a) * rad, z * rad * 1.05, z >= 0 ? 1 : -1]);
+  }
+  return pts;
+})();
+
+/** La nube a tiza: dos lóbulos de puntos y el núcleo. */
+function drawChalkCloud(ctx: CanvasRenderingContext2D, cx: number, cy: number, a: number) {
+  if (a <= 0) return;
+  ctx.save();
+  for (const [x, y, sgn] of CLOUD) {
+    if (Math.abs(x) > 190 || Math.abs(y) > 190) continue;
+    ctx.globalAlpha = a * 0.75;
+    ctx.fillStyle = sgn > 0 ? '#f3d77e' : '#a9d0f5';
+    ctx.fillRect(cx + x - 1.6, cy + y - 1.6, 3.2, 3.2);
+  }
+  ctx.restore();
+  chalkHatchCircle(ctx, cx, cy, 9, { color: '#ece8dc', alpha: a, gap: 4 });
+}
 
 /** La "sábana" a tiza: una malla que se hunde bajo el Sol. */
 function drawChalkWell(ctx: CanvasRenderingContext2D, cx: number, cy: number, a: number) {
@@ -89,7 +119,7 @@ export class ClosingScene extends Scene {
     if (this.step >= 2 && this.since(2) > 1.6) return;
     const dim = 1 - 0.75 * this.p(1, 0.9);
     const item = (i: number) => easeOutCubic(clamp01((this.since(0) - i * 0.45) / 0.9)) * dim;
-    drawBohrAtom(ctx, XS[0], Y, 0.42, this.now, 1, item(0));
+    drawChalkCloud(ctx, XS[0], Y, item(0));
     chalkText(ctx, '5 − 7 = −2', XS[1], Y, 76, { align: 'center', weight: 700, alpha: item(1) });
     drawChalkWell(ctx, XS[2], Y - 20, item(2));
     drawChalkLattice(ctx, XS[3], Y, item(3));

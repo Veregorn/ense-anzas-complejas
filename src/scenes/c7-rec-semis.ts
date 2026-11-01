@@ -41,11 +41,23 @@ export class RecSemisScene extends Scene {
     this.html('div', 'bg bg-night');
     this.cv = this.canvas();
     this.fx(this.html('p', 'abs fx sm-case', 'Los semiconductores'), 0);
-    this.fx(this.html('p', 'abs fx sm-cap', 'Cada átomo de silicio se da la mano con cuatro vecinos. Todas las manos ocupadas: casi no conduce.'), 0, 1);
-    this.fx(this.html('p', 'abs fx sm-cap', '<b class="amber">Fósforo</b>: cinco manos. Le sobra una, y ese electrón queda libre para moverse.'), 1, 2);
+    this.fx(this.html('p', 'abs fx sm-cap', 'Cada átomo de silicio se da la mano con cuatro vecinos. Todas las manos ocupadas: apenas conduce.'), 0, 1);
+    this.fx(this.html('p', 'abs fx sm-cap', '<b class="amber">Fósforo</b>: cinco manos. Le sobra una, un electrón libre. Y si algo se mueve, hay corriente.'), 1, 2);
     this.fx(this.html('p', 'abs fx sm-cap', '<b class="rose">Boro</b>: tres manos. Falta una, y queda un hueco… que se mueve.'), 2);
     this.fx(this.html('p', 'abs fx sm-cine-cap', 'Como un asiento libre en el cine cuando la gente se va cambiando de sitio'), 2);
-    const tag = this.html('div', 'abs sm-tag', tagHTML({ head: 'Modelo de las manos', main: 'Válido en la ESO', sub: 'En Bachillerato: bandas de energía', tone: 'green', rot: -3, seed: 97 }));
+    // La etiqueta del bloque 1 vuelve: «Ingredientes: no consta»… y al final se tacha
+    const old = this.html(
+      'div',
+      'abs sm-old',
+      tagHTML({ head: 'Ingredientes', main: 'No consta', tone: 'blue', rot: -3, seed: 37, className: 'tag-small' }) + '<div class="sm-strike"></div>',
+    );
+    this.fx(old.querySelector('.tag')!, 0);
+    this.fx(old.querySelector('.sm-strike')!, 3);
+    const tag = this.html(
+      'div',
+      'abs sm-tag',
+      tagHTML({ head: 'Ingredientes', main: 'Si + P · Si + B', sub: 'Modelo de las manos. En Bachillerato: bandas de energía', tone: 'blue', rot: -3, seed: 97 }),
+    );
     this.fx(tag.firstElementChild!, 3);
 
     // Camino del electrón libre: de hueco en hueco entre los átomos de la red
@@ -179,6 +191,71 @@ export class RecSemisScene extends Scene {
     }
 
     if (holeT >= 0) this.drawCinema(ctx, hops, frac, this.p(2, 1, 0.4));
+    this.drawBulb(ctx, appear);
+  }
+
+  /** ¿Conduce? Una bombilla: casi apagada con el silicio puro, encendida en cuanto algo se mueve. */
+  private drawBulb(ctx: CanvasRenderingContext2D, a: number) {
+    if (a <= 0) return;
+    const x = 1800;
+    const y = 450;
+    const on = this.step >= 2 ? 1 : this.step === 1 ? this.p(1, 0.9, 1.0) : 0;
+    const level = 0.05 + 0.03 * Math.sin(this.now * 3) + 0.92 * on;
+    ctx.save();
+    ctx.globalAlpha = a;
+    // Resplandor
+    const glow = ctx.createRadialGradient(x, y, 10, x, y, 190);
+    glow.addColorStop(0, `rgba(255,210,138,${0.55 * level})`);
+    glow.addColorStop(1, 'rgba(255,210,138,0)');
+    ctx.fillStyle = glow;
+    ctx.fillRect(x - 200, y - 200, 400, 400);
+    // Cristal
+    const glass = ctx.createRadialGradient(x - 14, y - 16, 4, x, y, 52);
+    glass.addColorStop(0, `rgba(255,244,214,${0.15 + 0.85 * level})`);
+    glass.addColorStop(1, `rgba(255,190,110,${0.06 + 0.5 * level})`);
+    ctx.fillStyle = glass;
+    ctx.beginPath();
+    ctx.arc(x, y, 50, Math.PI * 0.72, Math.PI * 2.28);
+    ctx.lineTo(x + 20, y + 62);
+    ctx.lineTo(x - 20, y + 62);
+    ctx.closePath();
+    ctx.fill();
+    ctx.strokeStyle = `rgba(220,226,245,${0.5 + 0.5 * level})`;
+    ctx.lineWidth = 3;
+    ctx.stroke();
+    // Filamento
+    ctx.strokeStyle = level > 0.3 ? '#fff6dc' : 'rgba(200,190,170,0.7)';
+    ctx.lineWidth = 2.5;
+    ctx.beginPath();
+    ctx.moveTo(x - 12, y + 52);
+    ctx.lineTo(x - 12, y + 6);
+    for (let i = 0; i <= 6; i++) ctx.lineTo(x - 12 + i * 4, y + (i % 2 ? -6 : 6));
+    ctx.lineTo(x + 12, y + 52);
+    ctx.stroke();
+    // Casquillo
+    ctx.fillStyle = '#8a92a8';
+    ctx.beginPath();
+    ctx.roundRect(x - 22, y + 62, 44, 34, 6);
+    ctx.fill();
+    ctx.strokeStyle = '#5c637a';
+    ctx.lineWidth = 2;
+    for (let i = 1; i <= 3; i++) {
+      ctx.beginPath();
+      ctx.moveTo(x - 22, y + 62 + i * 8.5);
+      ctx.lineTo(x + 22, y + 62 + i * 8.5);
+      ctx.stroke();
+    }
+    // Rótulo
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'top';
+    ctx.font = 'italic 400 28px Newsreader, serif';
+    ctx.fillStyle = `rgba(200,206,228,${1 - on})`;
+    ctx.fillText('Silicio puro:', x, y + 116);
+    ctx.fillText('apenas conduce', x, y + 150);
+    ctx.font = 'italic 600 34px Newsreader, serif';
+    ctx.fillStyle = `rgba(255,210,138,${on})`;
+    ctx.fillText('Conduce', x, y + 126);
+    ctx.restore();
   }
 
   private electron(ctx: CanvasRenderingContext2D, s: Slot, scale = 1, color = ELEC) {

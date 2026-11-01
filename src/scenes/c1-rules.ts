@@ -43,8 +43,11 @@ export class RulesScene extends Scene {
     this.fx(this.html('p', 'chalk write abs rl-head', 'Trece reglas que caducan <small>(Karp, Bush y Dougherty, 2014)</small>'), 0);
 
     // Caso 1: la resta
+    this.fx(this.html('p', 'chalk write abs rl-num', 'Regla nº 3'), 1).style.left = `${COLS[0] - 200}px`;
     this.fx(this.html('p', 'chalk write abs rl-big', '5 − 7'), 1).style.left = `${COLS[0] - 200}px`;
-    this.fx(this.html('p', 'chalk write abs rl-text', '“No se puede restar 7 a 5”'), 1).style.left = `${COLS[0] - 230}px`;
+    const rule = this.fx(this.html('p', 'chalk write abs rl-text', '“No se puede restar un número<br>grande de uno pequeño”'), 1);
+    rule.style.left = `${COLS[0] - 290}px`;
+    rule.style.width = '580px';
     this.tag(0, 2, { head: 'Consumir preferentemente antes de', main: '1º de ESO', rot: -6, seed: 11 });
 
     // Caso 2: la cuerda del Sol

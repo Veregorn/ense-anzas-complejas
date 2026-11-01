@@ -57,7 +57,7 @@ export class FridgeScene extends Scene {
         'abs fx fr-brain-text',
         `<p class="fr-kicker">Allaire-Duquette y colaboradores, <i>npj Science of Learning</i>, 2021</p>
          <p class="fr-result"><b>25 doctores en física</b> dentro de un escáner.</p>
-         <p class="fr-result">Ante una idea ingenua, su cerebro tiene que <em>frenarla</em>.</p>`,
+         <p class="fr-result">Ante una idea previa, su cerebro tiene que <em>frenarla</em>.</p>`,
       ),
       2,
       3,

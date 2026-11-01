@@ -32,8 +32,8 @@ export class RecSunScene extends Scene {
     this.view.rings = 1;
     this.chalk = this.canvas();
     this.fx(this.html('p', 'abs fx rsun-case chalk', 'El Sol'), 0, 1);
-    this.fx(this.html('p', 'abs fx rsun-cap', 'No hay cuerda. El Sol curva el espacio a su alrededor<br>y los planetas siguen esa curva.'), 1);
-    const tag = this.html('div', 'abs rsun-tag', tagHTML({ head: 'Modelo de la sábana', main: 'También caduca', sub: 'En la universidad: relatividad general', tone: 'green', rot: 3, seed: 83 }));
+    this.fx(this.html('p', 'abs fx rsun-cap', 'No hay cuerda. El Sol curva el espacio-tiempo a su alrededor<br>y los planetas siguen esa curva.'), 1);
+    const tag = this.html('div', 'abs rsun-tag', tagHTML({ head: 'Modelo de la sábana', main: 'También caduca', sub: 'Dibuja el espacio, le falta el tiempo. En la universidad: relatividad general', tone: 'green', rot: 3, seed: 83 }));
     this.fx(tag.firstElementChild!, 2);
   }
 

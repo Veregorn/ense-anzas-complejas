@@ -9,7 +9,8 @@ const fmt = (sec: number) => {
 };
 
 /** Convierte [corchetes] del guion en indicaciones de actuación destacadas. */
-const stageDirections = (t: string) => t.replace(/\[([^\]]+)\]/g, '<em class="pz-dir">$1</em>');
+const stageDirections = (t: string) =>
+  t.replace(/\[([^\]]+)\]/g, '<em class="pz-dir">$1</em>').replace(/\{([^}]+)\}/g, '<span class="pz-opt" title="Opcional">$1</span>');
 
 /**
  * Vista de presentador: lo que tú ves en el portátil mientras el proyector muestra las escenas.

@@ -18,17 +18,18 @@ const colorAt = (th: number) => mixRgb(rgb.time, rgb.starlight, (th - TH0) / (TH
 const STAGES = ['Primaria', 'ESO', 'Bachillerato', 'Universidad'];
 
 /**
- * Bloque 3 · Poner la etiqueta. Chevallard (transposición didáctica) → la etiqueta del profesor
+ * Bloque 3 · Poner la etiqueta. ¿Dejamos de simplificar? → Chevallard (transposición didáctica) → la etiqueta del profesor
  * → la espiral de Bruner.
  */
 export class LabelScene extends Scene {
   readonly id = 'etiqueta';
-  readonly stepCount = 3;
+  readonly stepCount = 4;
   private cv!: Canvas2D;
 
   protected build() {
     this.html('div', 'bg bg-night');
     this.cv = this.canvas();
+    this.fx(this.html('p', 'abs fx lb-q', 'Entonces… ¿dejamos de simplificar?'), 0, 1);
     this.fx(
       this.html(
         'div',
@@ -43,12 +44,12 @@ export class LabelScene extends Scene {
            </svg>
            <div class="lb-box ensenado"><b>Saber enseñado</b><span>lo que llega al aula</span></div>
          </div>
-         <p class="lb-vig">Exige <b>vigilancia epistemológica</b>.</p>`,
+         <p class="lb-vig">Inevitable y legítima. Pero exige <b>vigilancia epistemológica</b>.</p>`,
       ),
-      0,
       1,
+      2,
     );
-    this.fx(this.html('p', 'abs fx lb-tool-cap', 'La vigilancia epistemológica, traducida al aula:'), 1, 2);
+    this.fx(this.html('p', 'abs fx lb-tool-cap', 'La vigilancia epistemológica, traducida al aula:'), 2, 3);
     const tag = this.html(
       'div',
       'abs lb-tag',
@@ -63,7 +64,7 @@ export class LabelScene extends Scene {
         -2,
       ),
     );
-    this.fx(tag.firstElementChild!, 1, 2);
+    this.fx(tag.firstElementChild!, 2, 3);
 
     this.fx(
       this.html(
@@ -73,19 +74,19 @@ export class LabelScene extends Scene {
          <p class="quote-author">Jerome Bruner, <i>El proceso de la educación</i>, 1960</p>
          <p class="caption soft lb-bruner-note">La misma idea, cada vez más a fondo. Sin desmentir la anterior.</p>`,
       ),
-      2,
+      3,
     );
   }
 
   protected onStep(step: number, prev: number, instant: boolean) {
-    if (step === 1 && prev < 1 && !instant) this.shake(220);
+    if (step === 2 && prev < 2 && !instant) this.shake(220);
   }
 
   protected render() {
     const ctx = this.cv.ctx;
     this.cv.clear();
-    if (this.step < 2) return;
-    const reach = lerp(TH0, TH_END, this.p(2, 4.2, 0.4));
+    if (this.step < 3) return;
+    const reach = lerp(TH0, TH_END, this.p(3, 4.2, 0.4));
     const segs: { a: [number, number, number]; b: [number, number, number]; th: number }[] = [];
     for (let th = TH0; th < reach; th += 0.025) segs.push({ a: point(th), b: point(Math.min(reach, th + 0.025)), th });
     ctx.lineCap = 'round';

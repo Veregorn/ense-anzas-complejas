@@ -15,11 +15,11 @@ const PER = 0.62;
 
 /**
  * Bloque 4b · La resta: un edificio con garaje. El ascensor baja siete plantas desde la quinta
- * y llega a la −2. Los números no se acaban en el cero.
+ * y llega a la −2. Los números no se acaban en el cero. Y en Primaria bastaba con decir «todavía».
  */
 export class RecSubtractScene extends Scene {
   readonly id = 'rec-resta';
-  readonly stepCount = 2;
+  readonly stepCount = 3;
   private cv!: Canvas2D;
   private display!: HTMLElement;
   private eq!: HTMLElement[];
@@ -36,7 +36,7 @@ export class RecSubtractScene extends Scene {
         `<p class="rs-label">Planta</p>
          <p class="rs-display" aria-live="polite">5</p>
          <p class="rs-eq"><span class="e0">5</span> <span class="e1">− 7</span> <span class="e2">= −2</span></p>
-         <p class="rs-old">“No se puede restar 7 a 5”</p>`,
+         <p class="rs-old">“No se puede restar un número grande de uno pequeño”</p>`,
       ),
       0,
     );
@@ -44,6 +44,9 @@ export class RecSubtractScene extends Scene {
     this.eq = [panel.querySelector('.e1')!, panel.querySelector('.e2')!];
     const tag = this.html('div', 'abs rs-tag', tagHTML({ head: 'Números enteros', main: 'Desde 1º de ESO', sub: 'La recta sigue bajo el cero', tone: 'green', rot: -4, seed: 71 }));
     this.fx(tag.firstElementChild!, 1);
+    // La etiqueta de Primaria cabía en una palabra
+    this.fx(this.html('p', 'abs chalk write rs-primaria', '“Con los números que conocéis,<br>no se puede…”'), 1);
+    this.fx(this.html('p', 'abs chalk yellow write rs-todavia', '…todavía.'), 2);
 
     const r = rng(5);
     for (let f = 0; f <= 5; f++) {

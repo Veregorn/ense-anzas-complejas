@@ -93,6 +93,8 @@ body.presenter.is-black .pz-head { box-shadow: inset 0 -3px 0 #e2574c; }
 .pz-beat.past .pz-cue, .pz-beat.future .pz-cue { color: inherit; }
 .pz-dir { font-style: italic; color: var(--time); }
 .pz-beat.past .pz-dir, .pz-beat.future .pz-dir { color: inherit; }
+/* Frases opcionales: se pueden quitar si vas justo de tiempo */
+.pz-opt { opacity: 0.62; text-decoration: underline dotted; text-decoration-thickness: 2px; text-underline-offset: 0.18em; }
 
 .pz-right {
   border-left: 1px solid #222a40;

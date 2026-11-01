@@ -21,10 +21,12 @@ export class RecAtomScene extends Scene {
     this.cloud = new ElectronCloud(this.stage, this.el, 1420);
     this.chalk = this.canvas();
     this.fx(
-      this.html('div', 'abs fx ra-intro', `<h2 class="ra-title">La reconstrucción</h2><p class="ra-sub">Bohr dibujaba con tiza.<br>Nosotros tenemos animaciones.</p>`),
+      this.html('div', 'abs fx ra-intro', `<h2 class="ra-title">La reconstrucción</h2><p class="ra-sub">Ya no tenemos solo tiza.</p>`),
       0,
       1,
     );
+    const offer = this.html('div', 'abs ra-offer', tagHTML({ head: 'Con su etiqueta', main: 'Sin rebajas', tone: 'red', rot: -5, seed: 7 }));
+    this.fx(offer.firstElementChild!, 0, 1);
     this.fx(
       this.html(
         'div',
@@ -40,7 +42,7 @@ export class RecAtomScene extends Scene {
       this.html(
         'div',
         'abs fx ra-gruber',
-        `<p class="ra-oh">¿Ese pequeño “oh”?</p>
+        `<p class="ra-oh">¿Y por qué tiene esa forma?</p>
          <p class="ra-text">Es curiosidad. Activa el circuito de la dopamina y <em>recordamos mejor</em>, incluso lo que viene justo después.</p>
          <p class="fr-kicker">Gruber, Gelman y Ranganath, <i>Neuron</i>, 2014</p>`,
       ),

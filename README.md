@@ -64,15 +64,15 @@ src/
     school-model.ts      El Sistema Solar del colegio (con hilos que se rompen)
     spacetime3d.ts       La malla del espacio-tiempo en 3D (Three.js)
   scenes/                Una escena por bloque del guion
-    c0-atom-air.ts       "Dibujad un átomo en el aire" · sello "Descartado en 1926" · ¿os engañaron?
-    c1-rules.ts          Trece reglas que caducan: la resta, el Sol con cuerda, el chip
+    c0-atom-air.ts       "Dibujad un átomo en el aire" · sello "Descartado en 1926" · ¿os engañaron? · título
+    c1-rules.ts          Trece reglas que caducan (la regla nº 3, el Sol con cuerda, el chip)
     c2-fridge.ts         Taber · Shtulman y Valcarcel · el cerebro que frena · la nevera · Ausubel
-    c3-label.ts          Chevallard · la etiqueta del profesor · la espiral de Bruner
-    c4-rec-atom.ts       Del átomo de tiza a la nube de probabilidad (1s → 2p) · Gruber
-    c5-rec-subtract.ts   El ascensor baja al garaje: 5 − 7 = −2
+    c3-label.ts          ¿Dejamos de simplificar? · Chevallard · la etiqueta del profesor · Bruner
+    c4-rec-atom.ts       Sin rebajas · del átomo de tiza a la nube (1s → 2p) · Gruber
+    c5-rec-subtract.ts   El ascensor baja al garaje (5 − 7 = −2) · «…todavía»
     c6-rec-sun.ts        Los hilos se rompen y el espacio se curva
-    c7-rec-semis.ts      La red de silicio: fósforo (electrón libre) y boro (hueco) · el cine
-    c8-rec-final.ts      Ni adorno ni truco · Harp y Mayer · Recalcati
+    c7-rec-semis.ts      Red de silicio, fósforo y boro, el cine y la bombilla · los ingredientes
+    c8-rec-final.ts      Recalcati (y Gruber) · erótica no es espectáculo · Harp y Mayer
     c9-closing.ts        Todo con etiqueta · la pregunta · la frase final · gracias
   presenter/             Vista de presentador
   styles/                Tokens, escenario, escenas, etiquetas y presentador
