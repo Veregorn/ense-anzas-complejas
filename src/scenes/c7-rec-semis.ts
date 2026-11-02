@@ -29,7 +29,8 @@ function bondSlots(x1: number, y1: number, x2: number, y2: number): [Slot, Slot]
 
 /**
  * Bloque 4d · Los semiconductores: red de silicio, dopaje con fósforo (electrón libre)
- * y con boro (hueco que se mueve, como un asiento libre en el cine).
+ * y, en otro cristal, con boro (hueco que se mueve, como un asiento libre en el cine).
+ * Nunca los dos en el mismo trozo: se compensarían y conduciría peor.
  */
 export class RecSemisScene extends Scene {
   readonly id = 'rec-semis';
@@ -44,6 +45,7 @@ export class RecSemisScene extends Scene {
     this.fx(this.html('p', 'abs fx sm-cap', 'Cada átomo de silicio se da la mano con cuatro vecinos. Todas las manos ocupadas: apenas conduce.'), 0, 1);
     this.fx(this.html('p', 'abs fx sm-cap', '<b class="amber">Fósforo</b>: cinco manos. Le sobra una, un electrón libre. Y si algo se mueve, hay corriente.'), 1, 2);
     this.fx(this.html('p', 'abs fx sm-cap', '<b class="rose">Boro</b>: tres manos. Falta una, y queda un hueco… que se mueve.'), 2);
+    this.fx(this.html('p', 'abs fx sm-new', 'Otro cristal, ahora con boro'), 2);
     this.fx(this.html('p', 'abs fx sm-cine-cap', 'Como un asiento libre en el cine cuando la gente se va cambiando de sitio'), 2);
     // La etiqueta del bloque 1 vuelve: «Ingredientes: no consta»… y al final se tacha
     const old = this.html(
@@ -85,7 +87,9 @@ export class RecSemisScene extends Scene {
     const ctx = this.cv.ctx;
     this.cv.clear();
     const appear = this.p(0, 1.6);
-    const pIn = this.p(1, 0.8);
+    // El boro va en otro cristal: al entrar, el fósforo vuelve a ser silicio y su electrón desaparece
+    const pIn = this.step >= 2 ? 0 : this.p(1, 0.8);
+    const pFade = 1 - this.p(2, 0.6);
     const bIn = this.p(2, 0.8);
     const holeT = this.since(2);
 
@@ -172,7 +176,7 @@ export class RecSemisScene extends Scene {
 
     // Electrón libre del fósforo
     const T = this.since(1);
-    if (T > 0.6) {
+    if (T > 0.6 && pFade > 0) {
       const tt = (T - 0.6) / 0.55;
       const i = Math.min(this.walk.length - 2, Math.floor(tt));
       const k = easeInOutCubic(tt - Math.floor(tt));
@@ -182,12 +186,13 @@ export class RecSemisScene extends Scene {
         const ij = Math.min(this.walk.length - 2, Math.floor(tj));
         const kj = easeInOutCubic(tj - Math.floor(tj));
         const p = { x: lerp(this.walk[ij].x, this.walk[ij + 1].x, kj), y: lerp(this.walk[ij].y, this.walk[ij + 1].y, kj) };
-        ctx.globalAlpha = (1 - j / trail) * 0.35;
+        ctx.globalAlpha = (1 - j / trail) * 0.35 * pFade;
         this.electron(ctx, p, 1.2);
       }
-      ctx.globalAlpha = 1;
+      ctx.globalAlpha = pFade;
       const p = { x: lerp(this.walk[i].x, this.walk[i + 1].x, k), y: lerp(this.walk[i].y, this.walk[i + 1].y, k) };
       this.electron(ctx, p, 2.1, hex.time);
+      ctx.globalAlpha = 1;
     }
 
     if (holeT >= 0) this.drawCinema(ctx, hops, frac, this.p(2, 1, 0.4));
@@ -199,7 +204,7 @@ export class RecSemisScene extends Scene {
     if (a <= 0) return;
     const x = 1800;
     const y = 450;
-    const on = this.step >= 2 ? 1 : this.step === 1 ? this.p(1, 0.9, 1.0) : 0;
+    const on = this.step >= 3 ? 1 : this.step === 2 ? 0.12 + 0.88 * this.p(2, 0.8, 1.0) : this.step === 1 ? this.p(1, 0.9, 1.0) : 0;
     const level = 0.05 + 0.03 * Math.sin(this.now * 3) + 0.92 * on;
     ctx.save();
     ctx.globalAlpha = a;

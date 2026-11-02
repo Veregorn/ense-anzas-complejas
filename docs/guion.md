@@ -177,8 +177,8 @@ Los semiconductores. «Se añaden impurezas y conducen mejor.» Vamos a ver por 
 **Clic 33** · _Fósforo: un electrón libre · la bombilla se enciende_
 Si metemos uno de fósforo, que tiene cinco manos, le sobra una: un electrón libre para moverse. Y si algo se mueve, hay corriente.
 
-**Clic 34** · _Boro: el hueco que se mueve (y el cine)_
-Si metemos uno de boro, que solo tiene tres, queda un hueco. Y el hueco se mueve, como un asiento libre en el cine cuando la gente se va cambiando de sitio.
+**Clic 34** · _Otro cristal, ahora con boro: el hueco que se mueve (y el cine)_
+Y si, en otro trozo de silicio, metemos uno de boro, que solo tiene tres, queda un hueco. Y el hueco se mueve, como un asiento libre en el cine cuando la gente se va cambiando de sitio.
 
 **Clic 35** · _«No consta» se tacha · etiqueta «Ingredientes: Si + P · Si + B»_
 Ahí están los ingredientes. ‹Ya no hay que creérselo: se entiende.›
@@ -237,6 +237,7 @@ Gracias. *[Sonríe. Quédate quieto dos segundos.]*
 ## Si me preguntan
 
 - **¿Por qué el tiempo y no solo el espacio?** Cerca de una masa grande, el tiempo pasa un poquito más despacio. Los planetas siguen el camino más recto posible en el espacio-tiempo y, visto desde fuera, ese camino es una órbita.
+- **¿Qué hace el boro? ¿Y si lo mezclo con fósforo?** El boro tiene una mano menos que el silicio y deja un enlace incompleto, un hueco. Los electrones vecinos saltan a rellenarlo y el hueco viaja como una carga positiva (tipo p). Fósforo y boro en el mismo trozo se anulan: el electrón que sobra cae en el hueco que falta, y conduce peor (compensación). Se ponen en zonas contiguas, y esa frontera p-n es un diodo.
 - **¿En qué curso se ven los números enteros?** Se trabajan de forma sistemática en 1º de ESO. Algunos libros y comunidades los presentan de forma intuitiva al final de Primaria (temperaturas, plantas del ascensor).
 - **¿Esa regla de la resta está en el artículo?** Sí. Es la regla nº 3 de Karp, Bush y Dougherty (2014): «You cannot take a bigger number from a smaller number». Según ellas, caduca en 7º grado de Estados Unidos, el equivalente a nuestro 1º de ESO.
 

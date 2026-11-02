@@ -159,8 +159,8 @@ export const BLOCKS: Block[] = [
       },
       { cue: 'Fósforo: un electrón libre · la bombilla se enciende', say: 'Si metemos uno de fósforo, que tiene cinco manos, le sobra una: un electrón libre para moverse. Y si algo se mueve, hay corriente.' },
       {
-        cue: 'Boro: el hueco que se mueve (y el cine)',
-        say: 'Si metemos uno de boro, que solo tiene tres, queda un hueco. Y el hueco se mueve, como un asiento libre en el cine cuando la gente se va cambiando de sitio.',
+        cue: 'Otro cristal, ahora con boro: el hueco que se mueve (y el cine)',
+        say: 'Y si, en otro trozo de silicio, metemos uno de boro, que solo tiene tres, queda un hueco. Y el hueco se mueve, como un asiento libre en el cine cuando la gente se va cambiando de sitio.',
       },
       { cue: '«No consta» se tacha · etiqueta «Ingredientes: Si + P · Si + B»', say: 'Ahí están los ingredientes. {Ya no hay que creérselo: se entiende.}' },
     ],

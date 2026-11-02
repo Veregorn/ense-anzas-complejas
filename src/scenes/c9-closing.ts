@@ -56,21 +56,23 @@ function drawChalkWell(ctx: CanvasRenderingContext2D, cx: number, cy: number, a:
   chalkStroke(ctx, circlePts(cx, cy + 62, 26, 9, 1), { width: 3, color: '#f3d77e', alpha: a });
 }
 
-/** Red de silicio en miniatura con un fósforo y un boro. */
+/** Dos cristales de silicio en miniatura: uno con fósforo y otro con boro (nunca juntos en el mismo trozo). */
 function drawChalkLattice(ctx: CanvasRenderingContext2D, cx: number, cy: number, a: number) {
-  const sp = 70;
-  for (let r = -1; r <= 1; r++) {
-    for (let c = -2; c <= 2; c++) {
-      const x = cx + c * sp;
-      const y = cy + r * sp;
-      if (c < 2) chalkStroke(ctx, linePts(x + 18, y, x + sp - 18, y, r * 7 + c, 0.6, 8), { width: 2.2, alpha: a * 0.7 });
-      if (r < 1) chalkStroke(ctx, linePts(x, y + 18, x, y + sp - 18, r * 9 + c + 3, 0.6, 8), { width: 2.2, alpha: a * 0.7 });
-      const label = c === -1 && r === 0 ? 'P' : c === 1 && r === 0 ? 'B' : 'Si';
-      const col = label === 'P' ? '#f3d77e' : label === 'B' ? '#ff8a7a' : '#ece8dc';
-      chalkStroke(ctx, circlePts(x, y, 18, 30 + r * 5 + c, 0.6, 30), { width: 2.4, color: col, alpha: a });
-      chalkText(ctx, label, x, y + 1, label === 'Si' ? 18 : 22, { align: 'center', color: col, alpha: a, weight: 700 });
+  const sp = 52;
+  ([[-88, 'P'], [88, 'B']] as const).forEach(([ox, dop], k) => {
+    for (let r = -1; r <= 1; r++) {
+      for (let c = -1; c <= 1; c++) {
+        const x = cx + ox + c * sp;
+        const y = cy + r * sp;
+        if (c < 1) chalkStroke(ctx, linePts(x + 15, y, x + sp - 15, y, k * 31 + r * 7 + c, 0.6, 6), { width: 2.2, alpha: a * 0.7 });
+        if (r < 1) chalkStroke(ctx, linePts(x, y + 15, x, y + sp - 15, k * 31 + r * 9 + c + 3, 0.6, 6), { width: 2.2, alpha: a * 0.7 });
+        const label = c === 0 && r === 0 ? dop : 'Si';
+        const col = label === 'P' ? '#f3d77e' : label === 'B' ? '#ff8a7a' : '#ece8dc';
+        chalkStroke(ctx, circlePts(x, y, 15, 30 + k * 13 + r * 5 + c, 0.6, 28), { width: 2.2, color: col, alpha: a });
+        chalkText(ctx, label, x, y + 1, label === 'Si' ? 15 : 20, { align: 'center', color: col, alpha: a, weight: 700 });
+      }
     }
-  }
+  });
 }
 
 /**
