@@ -4,7 +4,7 @@ Presentación animada para una disertación de 7 minutos (asignatura *Oratoria y
 
 > **Simplificar no es engañar. Engañar es quitar la etiqueta.**
 
-Todo lo que se enseña en la ESO acaba caducando: el átomo como un sistema solar, "no se puede restar 7 a 5", el Sol que sujeta a la Tierra con una cuerda, el dopaje de semiconductores que se cuenta sin explicar. Que caduque no es el problema. El problema es enseñarlo sin etiqueta, porque la idea vieja no se borra (Taber; Shtulman y Valcarcel; Allaire-Duquette y colaboradores). La charla propone simplificar con vigilancia (Chevallard), en espiral (Bruner) y avisando de que es un modelo. Después reconstruye cada caso con una animación de la versión real, pensada para alumnos de secundaria, porque la curiosidad y la sorpresa favorecen el aprendizaje (Gruber; Brod) y el asombro, bien puesto, es la erótica de la enseñanza (Recalcati).
+Todo lo que se enseña en la ESO acaba caducando: el átomo como un sistema solar, "no se puede restar 7 a 5", el Sol que sujeta a la Tierra con una cuerda, el dopaje de semiconductores que se cuenta sin explicar. Que caduque no es el problema. El problema es enseñarlo sin etiqueta, porque la idea vieja no se borra (Taber; Allaire-Duquette y colaboradores). La charla propone simplificar con vigilancia (Chevallard), en espiral (Bruner) y avisando de que es un modelo. Después reconstruye cada caso con una animación de la versión real, pensada para alumnos de secundaria, porque la curiosidad favorece el aprendizaje (Gruber).
 
 El guion completo está en [`docs/guion.md`](docs/guion.md).
 
@@ -12,7 +12,7 @@ El guion completo está en [`docs/guion.md`](docs/guion.md).
 
 **▶ [veregorn.github.io/ense-anzas-complejas](https://veregorn.github.io/ense-anzas-complejas/)**
 
-Esta es la **versión 2**, más compacta (unos 6:40 de ensayo y un autor por idea). La versión 1 sigue disponible en [veregorn.github.io/ense-anzas-complejas/v1/](https://veregorn.github.io/ense-anzas-complejas/v1/) y en la rama `v1` del repositorio.
+Esta es la **versión 2**, más compacta (unos 6:20 de ensayo y un autor por idea). La versión 1 sigue disponible en [veregorn.github.io/ense-anzas-complejas/v1/](https://veregorn.github.io/ense-anzas-complejas/v1/) y en la rama `v1` del repositorio.
 
 Una vez abierta, pulsa `F` para verla a pantalla completa y `P` para abrir la vista de presentador. También puedes empezar en un punto concreto: por ejemplo, [la reconstrucción del átomo (bloque 4, paso 2)](https://veregorn.github.io/ense-anzas-complejas/#4.2).
 
@@ -49,7 +49,7 @@ La vista de presentador recuerda estos pasos hasta que das el primer clic.
 
 Puedes avanzar desde cualquiera de las dos ventanas. Si pulsas un punto del mapa de la derecha, saltas directamente a ese paso.
 
-**Para ensayar** desde un punto concreto, añade `#bloque.paso` a la dirección. Por ejemplo, `presentacion.html#9.3` abre directamente la frase final.
+**Para ensayar** desde un punto concreto, añade `#bloque.paso` a la dirección. Por ejemplo, `presentacion.html#8.3` abre directamente la frase final.
 
 ---
 
@@ -74,7 +74,6 @@ src/
     c5-rec-subtract.ts   El ascensor baja al garaje (5 − 7 = −2) · «…todavía»
     c6-rec-sun.ts        Los hilos se rompen y el espacio se curva
     c7-rec-semis.ts      Red de silicio, fósforo y boro, el cine y la bombilla · los ingredientes
-    c8-rec-final.ts      Recalcati · erótica no es espectáculo
     c9-closing.ts        Todo con etiqueta · la pregunta · la frase final · gracias
   presenter/             Vista de presentador
   styles/                Tokens, escenario, escenas, etiquetas y presentador
@@ -114,5 +113,4 @@ El workflow `.github/workflows/pages.yml` compila y publica en [veregorn.github.
 - Gruber, M. J., Gelman, B. D. y Ranganath, C. (2014). "States of curiosity modulate hippocampus-dependent learning via the dopaminergic circuit". *Neuron*, 84(2).
 - Brod, G., Hasselhorn, M. y Bunge, S. A. (2018). "When generating a prediction boosts learning: The element of surprise". *Learning and Instruction*, 55.
 - Harp, S. F. y Mayer, R. E. (1998). Detalles seductores. *Journal of Educational Psychology*, 90(3).
-- Recalcati, M. (2016). *La hora de clase. Por una erótica de la enseñanza*. Anagrama.
 - Física de las reconstrucciones: orbitales 1s y 2p del hidrógeno (Schrödinger, 1926); dopaje tipo n (fósforo, 5 electrones de valencia) y tipo p (boro, 3) del silicio; relatividad general.

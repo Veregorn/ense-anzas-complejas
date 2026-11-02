@@ -13,7 +13,7 @@ Disertación para Oratoria y liderazgo pedagógico en el aula · 7 minutos · **
 
 1. **Todo caduca, y lo caducado sin etiqueta se queda.** Karp y colaboradoras recogen reglas que caducan. Keith Taber llama *impedimento pedagógico* a los errores que no nacen de la intuición del alumno, sino de cómo se le enseñó. Allaire-Duquette y colaboradores (2021) muestran que ni los doctores en física se libran: su cerebro tiene que frenar la idea previa. *(Bloques 0 a 2)*
 2. **La solución es poner la etiqueta.** Chevallard: simplificar es inevitable y legítimo, pero exige vigilancia epistemológica. Bruner: cualquier materia puede enseñarse a cualquier edad de forma intelectualmente honesta, en espiral. *(Bloque 3)*
-3. **Y hoy podemos enseñar la versión real.** La curiosidad favorece la memoria (Gruber y colaboradores, 2014). Recalcati lo llama la erótica de la enseñanza, con un matiz: erótica no es espectáculo, la sorpresa tiene que estar en el concepto. *(Bloques 4 a 8)*
+3. **Y hoy podemos enseñar la versión real.** Las reconstrucciones, pensadas para un alumno de 3º de ESO. La curiosidad que despiertan favorece la memoria (Gruber y colaboradores, 2014). *(Bloques 4 a 7)*
 
 Un autor por idea. Shtulman y Valcarcel, Ausubel, Harp y Mayer y Brod quedan en reserva para el turno de preguntas (ver «Si me preguntan» y las fuentes).
 
@@ -48,7 +48,7 @@ Pues acabáis de dibujar algo que la física descartó en 1926. Hace casi cien a
 
 ---
 
-## Bloque 1 · Reglas que caducan (0:55 – 2:05)
+## Bloque 1 · Reglas que caducan (0:55 – 2:10)
 
 **Clic 5** · _«Trece reglas que caducan»_
 En didáctica de las matemáticas hay un artículo muy citado que se titula «Trece reglas que caducan». Son reglas de Primaria que, unos cursos después, dejan de ser verdad. Os leo una.
@@ -78,7 +78,7 @@ Hay que creérselo.
 
 ---
 
-## Bloque 2 · Lo caducado se queda en la nevera (2:05 – 2:50)
+## Bloque 2 · Lo caducado se queda en la nevera (2:10 – 2:55)
 
 **Clic 13** · _Taber · «No nace de la intuición del alumno. Nace de cómo se lo enseñamos» · «culpable de aprender lo que le enseñaron»_
 Keith Taber le ha puesto nombre: impedimento pedagógico. Son errores que no vienen de la intuición del alumno, sino de cómo se lo enseñamos. Y dice algo demoledor: en esos casos, el alumno solo es culpable de haber aprendido lo que le enseñaron.
@@ -93,7 +93,7 @@ Lo caducado no se tira solo. Se queda en la nevera.
 
 ---
 
-## Bloque 3 · Poner la etiqueta (2:50 – 3:25)
+## Bloque 3 · Poner la etiqueta (2:55 – 3:35)
 
 **Clic 16** · _«Entonces… ¿dejamos de simplificar?»_
 Entonces, ¿qué hacemos? ¿Dejamos de simplificar? *[Pausa.]*
@@ -111,7 +111,7 @@ Y Bruner añade que cualquier materia puede enseñarse a cualquier edad de una f
 
 ---
 
-## Bloque 4 · Reconstruir el átomo (3:25 – 4:30)
+## Bloque 4 · Reconstruir el átomo (3:35 – 4:45)
 
 **Clic 20** · _«La reconstrucción» · «Ya no tenemos solo tiza» · etiqueta «Sin rebajas»_
 *[Pausa.]* Y hoy eso es más fácil que nunca, porque ya no tenemos solo tiza. Vamos a hacer la prueba: los casos del principio, como se los contaríamos hoy a un alumno de 3º de ESO. Con su etiqueta… y sin rebajas.
@@ -129,7 +129,7 @@ Y tiene formas preciosas.
 
 ---
 
-## Bloque 5 · Reconstruir la resta (4:30 – 4:55)
+## Bloque 5 · Reconstruir la resta (4:45 – 5:10)
 
 **Clic 24** · _El ascensor baja siete plantas_
 La resta. Los números no se acaban en el cero. Como en el ascensor de un garaje: desde la planta cinco, bajas siete y llegas a la menos dos.
@@ -144,7 +144,7 @@ Y en Primaria bastaba con una palabra. «Con los números que conocéis, no se p
 
 ---
 
-## Bloque 6 · Reconstruir el Sol (4:55 – 5:15)
+## Bloque 6 · Reconstruir el Sol (5:10 – 5:30)
 
 **Clic 27** · _El Sistema Solar del colegio, con sus hilos_
 El Sol.
@@ -159,7 +159,7 @@ Con su etiqueta, porque la sábana también es un modelo.
 
 ---
 
-## Bloque 7 · Reconstruir los semiconductores (5:15 – 6:10)
+## Bloque 7 · Reconstruir los semiconductores (5:30 – 6:30)
 
 **Clic 30** · _La red de silicio · «Ingredientes: no consta» · bombilla apagada_
 Los semiconductores. «Se le añaden impurezas y conduce mejor.» Vamos a ver por qué. Cada átomo de silicio se da la mano con cuatro vecinos. Todas las manos ocupadas: nada se mueve, y por eso el silicio puro apenas conduce.
@@ -177,27 +177,18 @@ Ahí están los ingredientes.
 
 ---
 
-## Bloque 8 · Erótica, no espectáculo (6:10 – 6:30)
+## Bloque 8 · Cierre (6:30 – 7:00)
 
-**Clic 34** · _Recalcati: la erótica de la enseñanza · «Erótica no es espectáculo»_
-Massimo Recalcati diría que esto es la erótica de la enseñanza: no transmitir solo información, sino el deseo de saber. Y ojo, erótica no es espectáculo. Ninguna de estas animaciones es un adorno: la sorpresa tiene que estar en el concepto.
-
-**Anclas:** Recalcati · deseo de saber · no es espectáculo · sorpresa en el concepto
-
----
-
-## Bloque 9 · Cierre (6:30 – 7:00)
-
-**Clic 35** · _Los cuatro casos, cada uno con su etiqueta_
+**Clic 34** · _Los cuatro casos, cada uno con su etiqueta_
 Todo lo que enseñamos caducará algún día. También la nube, también la sábana. Lo que sí está en nuestras manos es que nuestros alumnos lo sepan.
 
-**Clic 36** · _«¿Qué estáis enseñando vosotros sin etiqueta?»_
+**Clic 35** · _«¿Qué estáis enseñando vosotros sin etiqueta?»_
 *[Pausa. Mira al público.]* Así que os dejo con una pregunta: ¿qué estáis enseñando vosotros sin etiqueta?
 
-**Clic 37** · _La frase final_
+**Clic 36** · _La frase final_
 *[Pausa larga.]* Simplificar no es engañar. Engañar es quitar la etiqueta.
 
-**Clic 38** · _Gracias_
+**Clic 37** · _Gracias_
 Gracias. *[Sonríe. Quédate quieto dos segundos.]*
 
 **Anclas:** todo caducará · también la nube · ¿sin etiqueta? · frase final
@@ -210,14 +201,13 @@ Gracias. *[Sonríe. Quédate quieto dos segundos.]*
 |---|---|---|
 | 0 | 0:00 | dedo en el aire · 1926 · ¿os engañaron? · nadie os dijo la fecha · el título |
 | 1 | 0:55 | trece reglas · «os leo una» · regla nº 3 · cuerda del Sol · ingredientes: no consta · el problema es otro |
-| 2 | 2:05 | Taber · culpable de aprender lo que le enseñaron · ¿se arregla después? · doctores en física · la nevera |
-| 3 | 2:50 | ¿dejamos de simplificar? · imposible · Chevallard · vigilancia · la etiqueta en tres líneas · Bruner · espiral |
-| 4 | 3:25 | más fácil que nunca · no solo tiza · sin rebajas · fotos · nube · ¿por qué esa forma? · Gruber · despertarla antes |
-| 5 | 4:30 | el garaje · planta cinco · menos dos · una palabra · todavía |
-| 6 | 4:55 | no hay cuerda · espacio-tiempo · sábana · también es un modelo |
-| 7 | 5:15 | «vamos a ver por qué» · cuatro manos · apenas conduce · fósforo: sobra una · hay corriente · boro: hueco · el cine · ahí están los ingredientes |
-| 8 | 6:10 | Recalcati · deseo de saber · no es espectáculo · sorpresa en el concepto |
-| 9 | 6:30 | todo caducará · también la nube · ¿sin etiqueta? · frase final |
+| 2 | 2:10 | Taber · culpable de aprender lo que le enseñaron · ¿se arregla después? · doctores en física · la nevera |
+| 3 | 2:55 | ¿dejamos de simplificar? · imposible · Chevallard · vigilancia · la etiqueta en tres líneas · Bruner · espiral |
+| 4 | 3:35 | más fácil que nunca · no solo tiza · sin rebajas · fotos · nube · ¿por qué esa forma? · Gruber · despertarla antes |
+| 5 | 4:45 | el garaje · planta cinco · menos dos · una palabra · todavía |
+| 6 | 5:10 | no hay cuerda · espacio-tiempo · sábana · también es un modelo |
+| 7 | 5:30 | «vamos a ver por qué» · cuatro manos · apenas conduce · fósforo: sobra una · hay corriente · boro: hueco · el cine · ahí están los ingredientes |
+| 8 | 6:30 | todo caducará · también la nube · ¿sin etiqueta? · frase final |
 
 ---
 
@@ -244,6 +234,5 @@ Gracias. *[Sonríe. Quédate quieto dos segundos.]*
 - **Bruner, J.** (1960). *El proceso de la educación*. Currículo en espiral.
 - **Gruber, M. J., Gelman, B. D. y Ranganath, C.** (2014). "States of curiosity modulate hippocampus-dependent learning via the dopaminergic circuit". *Neuron*, 84(2).
 - **Brod, G., Hasselhorn, M. y Bunge, S. A.** (2018). "When generating a prediction boosts learning: The element of surprise". *Learning and Instruction*, 55.
-- **Recalcati, M.** (2016). *La hora de clase. Por una erótica de la enseñanza*. Anagrama.
 - **Harp, S. F. y Mayer, R. E.** (1998). Detalles seductores: la información interesante pero irrelevante empeora la comprensión de textos científicos. *Journal of Educational Psychology*, 90(3).
 - **Semiconductores.** El silicio tiene 4 electrones de valencia; el fósforo, 5 (dopaje tipo n, electrón libre); el boro, 3 (dopaje tipo p, hueco).

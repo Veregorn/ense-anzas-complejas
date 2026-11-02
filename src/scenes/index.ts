@@ -7,10 +7,9 @@ import { RecAtomScene } from './c4-rec-atom';
 import { RecSubtractScene } from './c5-rec-subtract';
 import { RecSunScene } from './c6-rec-sun';
 import { RecSemisScene } from './c7-rec-semis';
-import { RecFinalScene } from './c8-rec-final';
 import { ClosingScene } from './c9-closing';
 
-/** Una escena por bloque del guion (ver content/script.ts). El bloque 4 se reparte en cinco escenas. */
+/** Una escena por bloque del guion (ver content/script.ts). La reconstrucción se reparte en cuatro escenas. */
 export const SCENES: SceneFactory[] = [
   () => new AtomAirScene(),
   () => new RulesScene(),
@@ -20,6 +19,5 @@ export const SCENES: SceneFactory[] = [
   () => new RecSubtractScene(),
   () => new RecSunScene(),
   () => new RecSemisScene(),
-  () => new RecFinalScene(),
   () => new ClosingScene(),
 ];

@@ -3,7 +3,7 @@
  *  - cue:  qué ocurre en pantalla al llegar a ese paso.
  *  - say:  lo que dices mientras estás en ese paso. Entre corchetes, indicaciones de actuación.
  *           Entre llaves, frases opcionales: se pueden quitar si vas justo de tiempo.
- * Hay una entrada por escena; el bloque 4 del guion (la reconstrucción) ocupa cinco escenas.
+ * Hay una entrada por escena; la reconstrucción ocupa cuatro escenas.
  */
 export interface Beat {
   cue: string;
@@ -45,7 +45,7 @@ export const BLOCKS: Block[] = [
   {
     title: 'Reglas que caducan',
     start: 55,
-    end: 125,
+    end: 130,
     anchors: ['trece reglas', '«os leo una»', 'regla nº 3', 'cuerda del Sol', 'ingredientes: no consta', 'el problema es otro'],
     beats: [
       {
@@ -69,8 +69,8 @@ export const BLOCKS: Block[] = [
   },
   {
     title: 'Lo caducado se queda en la nevera',
-    start: 125,
-    end: 170,
+    start: 130,
+    end: 175,
     anchors: ['Taber', 'culpable de aprender lo que le enseñaron', '¿se arregla después?', 'doctores en física', 'la nevera'],
     beats: [
       {
@@ -86,8 +86,8 @@ export const BLOCKS: Block[] = [
   },
   {
     title: 'Poner la etiqueta',
-    start: 170,
-    end: 205,
+    start: 175,
+    end: 215,
     anchors: ['¿dejamos de simplificar?', 'imposible', 'Chevallard', 'vigilancia', 'la etiqueta en tres líneas', 'Bruner', 'espiral'],
     beats: [
       { cue: '«Entonces… ¿dejamos de simplificar?»', say: 'Entonces, ¿qué hacemos? ¿Dejamos de simplificar? [Pausa.]' },
@@ -104,8 +104,8 @@ export const BLOCKS: Block[] = [
   },
   {
     title: 'Reconstruir el átomo',
-    start: 205,
-    end: 270,
+    start: 215,
+    end: 285,
     anchors: ['más fácil que nunca', 'no solo tiza', 'sin rebajas', 'fotos', 'nube', '¿por qué esa forma?', 'Gruber', 'despertarla antes'],
     beats: [
       {
@@ -125,8 +125,8 @@ export const BLOCKS: Block[] = [
   },
   {
     title: 'Reconstruir la resta',
-    start: 270,
-    end: 295,
+    start: 285,
+    end: 310,
     anchors: ['el garaje', 'planta cinco', 'menos dos', 'una palabra', 'todavía'],
     beats: [
       { cue: 'El ascensor baja siete plantas', say: 'La resta. Los números no se acaban en el cero. Como en el ascensor de un garaje: desde la planta cinco, bajas siete y llegas a la menos dos.' },
@@ -136,8 +136,8 @@ export const BLOCKS: Block[] = [
   },
   {
     title: 'Reconstruir el Sol',
-    start: 295,
-    end: 315,
+    start: 310,
+    end: 330,
     anchors: ['no hay cuerda', 'espacio-tiempo', 'sábana', 'también es un modelo'],
     beats: [
       { cue: 'El Sistema Solar del colegio, con sus hilos', say: 'El Sol.' },
@@ -147,8 +147,8 @@ export const BLOCKS: Block[] = [
   },
   {
     title: 'Reconstruir los semiconductores',
-    start: 315,
-    end: 370,
+    start: 330,
+    end: 390,
     anchors: ['«vamos a ver por qué»', 'cuatro manos', 'apenas conduce', 'fósforo: sobra una', 'hay corriente', 'boro: hueco', 'el cine', 'ahí están los ingredientes'],
     beats: [
       {
@@ -161,18 +161,6 @@ export const BLOCKS: Block[] = [
         say: 'Y si, en otro trozo de silicio, metemos uno de boro, que solo tiene tres, queda un hueco. Y el hueco se mueve, como un asiento libre en el cine cuando la gente se corre.',
       },
       { cue: '«No consta» se tacha · etiqueta «Ingredientes: Si + P · Si + B»', say: 'Ahí están los ingredientes.' },
-    ],
-  },
-  {
-    title: 'Erótica, no espectáculo',
-    start: 370,
-    end: 390,
-    anchors: ['Recalcati', 'deseo de saber', 'no es espectáculo', 'sorpresa en el concepto'],
-    beats: [
-      {
-        cue: 'Recalcati: la erótica de la enseñanza · «Erótica no es espectáculo»',
-        say: 'Massimo Recalcati diría que esto es la erótica de la enseñanza: no transmitir solo información, sino el deseo de saber. Y ojo, erótica no es espectáculo. Ninguna de estas animaciones es un adorno: la sorpresa tiene que estar en el concepto.',
-      },
     ],
   },
   {
