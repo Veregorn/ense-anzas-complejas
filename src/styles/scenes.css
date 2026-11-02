@@ -35,7 +35,8 @@
 .fr-result { margin: 56px 0 0; font: 400 56px/1.2 var(--serif); max-width: 24em; }
 .fr-result em, .fr-result b { color: var(--time); font-style: normal; font-weight: 500; }
 .fr-small { margin: 24px 0 0; font: italic 400 40px var(--serif); color: var(--ink-soft); }
-.fr-brain-text { left: 150px; top: 290px; width: 760px; }
+.fr-brain-text { left: 150px; top: 250px; width: 760px; }
+.fr-ask { margin: 0 0 18px; font: italic 400 48px var(--serif); color: var(--time); }
 .fr-brain-text .fr-result { font-size: 58px; margin-top: 40px; }
 .fr-brain-label { left: 900px; top: 168px; margin: 0; font: italic 400 38px var(--serif); color: var(--time); }
 

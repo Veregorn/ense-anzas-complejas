@@ -13,11 +13,11 @@ const MINI_SUN = `<svg viewBox="0 0 120 120" aria-hidden="true">
 
 /**
  * Bloque 2 · Lo caducado se queda en la nevera.
- * Taber → Shtulman y Valcarcel → doctores en física en el escáner → la nevera → Ausubel.
+ * Taber → doctores en física en el escáner → la nevera.
  */
 export class FridgeScene extends Scene {
   readonly id = 'nevera';
-  readonly stepCount = 5;
+  readonly stepCount = 3;
   private cv!: Canvas2D;
 
   protected build() {
@@ -39,31 +39,16 @@ export class FridgeScene extends Scene {
     this.fx(
       this.html(
         'div',
-        'abs fx fr-study',
-        `<p class="fr-kicker">Shtulman y Valcarcel, <i>Cognition</i>, 2012</p>
-         <div class="fr-figures">
-           <div><b>150</b><span>universitarios de ciencias</span></div>
-           <div><b>200</b><span>afirmaciones de “verdadero o falso”, a toda velocidad</span></div>
-         </div>
-         <p class="fr-result">Cuando la ciencia contradice la idea de siempre, <em>tardan más y fallan más</em>.</p>
-         <p class="fr-small">La idea vieja seguía ahí.</p>`,
+        'abs fx fr-brain-text',
+        `<p class="fr-ask">¿Se arregla después?</p>
+         <p class="fr-kicker">Allaire-Duquette y colaboradores, <i>npj Science of Learning</i>, 2021</p>
+         <p class="fr-result"><b>25 doctores en física</b> dentro de un escáner.</p>
+         <p class="fr-result">Ante una idea previa, su cerebro tiene que <em>frenarla</em>.</p>`,
       ),
       1,
       2,
     );
-
-    this.fx(
-      this.html(
-        'div',
-        'abs fx fr-brain-text',
-        `<p class="fr-kicker">Allaire-Duquette y colaboradores, <i>npj Science of Learning</i>, 2021</p>
-         <p class="fr-result"><b>25 doctores en física</b> dentro de un escáner.</p>
-         <p class="fr-result">Ante una idea previa, su cerebro tiene que <em>frenarla</em>.</p>`,
-      ),
-      2,
-      3,
-    );
-    this.fx(this.html('p', 'abs fx fr-brain-label', 'control inhibitorio'), 2, 3);
+    this.fx(this.html('p', 'abs fx fr-brain-label', 'control inhibitorio'), 1, 2);
 
     // La nevera
     const fridge = this.html(
@@ -78,25 +63,16 @@ export class FridgeScene extends Scene {
        <div class="fridge-door"><div class="fridge-handle"></div><div class="fridge-logo">Didáctica</div></div>
        <div class="fridge-spill"></div>`,
     );
-    this.fx(fridge, 3);
-    this.fx(this.html('p', 'abs chalk write fr-fridge-cap', 'Lo caducado<br>no se tira solo.'), 3, 4);
-    this.fx(this.html('p', 'abs chalk yellow write fr-fridge-cap2', 'Se queda en la nevera.'), 3, 4);
+    this.fx(fridge, 2);
+    this.fx(this.html('p', 'abs chalk write fr-fridge-cap', 'Lo caducado<br>no se tira solo.'), 2);
+    this.fx(this.html('p', 'abs chalk yellow write fr-fridge-cap2', 'Se queda en la nevera.'), 2);
 
-    this.fx(
-      this.html(
-        'blockquote',
-        'abs fx fr-ausubel',
-        `<p class="quote">“El factor más importante que influye en el aprendizaje es lo que el alumno ya sabe.”</p>
-         <p class="quote-author">David Ausubel, 1968</p>`,
-      ),
-      4,
-    );
   }
 
   protected render() {
     const ctx = this.cv.ctx;
     this.cv.clear();
-    const a = this.step < 2 ? 0 : this.p(2, 1.2) * (1 - this.p(3, 0.5));
+    const a = this.step < 1 ? 0 : this.p(1, 1.2) * (1 - this.p(2, 0.5));
     if (a > 0) this.drawBrain(ctx, a);
   }
 

@@ -12,6 +12,8 @@ El guion completo está en [`docs/guion.md`](docs/guion.md).
 
 **▶ [veregorn.github.io/ense-anzas-complejas](https://veregorn.github.io/ense-anzas-complejas/)**
 
+Esta es la **versión 2**, más compacta (unos 6:40 de ensayo y un autor por idea). La versión 1 sigue disponible en [veregorn.github.io/ense-anzas-complejas/v1/](https://veregorn.github.io/ense-anzas-complejas/v1/) y en la rama `v1` del repositorio.
+
 Una vez abierta, pulsa `F` para verla a pantalla completa y `P` para abrir la vista de presentador. También puedes empezar en un punto concreto: por ejemplo, [la reconstrucción del átomo (bloque 4, paso 2)](https://veregorn.github.io/ense-anzas-complejas/#4.2).
 
 > Para la exposición en el aula es mejor el archivo `presentacion.html` (ver abajo): funciona sin internet. El enlace web sirve para ensayar desde cualquier equipo o compartirla.
@@ -66,13 +68,13 @@ src/
   scenes/                Una escena por bloque del guion
     c0-atom-air.ts       "Dibujad un átomo en el aire" · sello "Descartado en 1926" · ¿os engañaron? · título
     c1-rules.ts          Trece reglas que caducan (la regla nº 3, el Sol con cuerda, el chip)
-    c2-fridge.ts         Taber · Shtulman y Valcarcel · el cerebro que frena · la nevera · Ausubel
+    c2-fridge.ts         Taber · el cerebro que frena · la nevera
     c3-label.ts          ¿Dejamos de simplificar? · Chevallard · la etiqueta del profesor · Bruner
     c4-rec-atom.ts       Sin rebajas · del átomo de tiza a la nube (1s → 2p) · Gruber
     c5-rec-subtract.ts   El ascensor baja al garaje (5 − 7 = −2) · «…todavía»
     c6-rec-sun.ts        Los hilos se rompen y el espacio se curva
     c7-rec-semis.ts      Red de silicio, fósforo y boro, el cine y la bombilla · los ingredientes
-    c8-rec-final.ts      Recalcati (y Gruber) · erótica no es espectáculo · Harp y Mayer
+    c8-rec-final.ts      Recalcati · erótica no es espectáculo
     c9-closing.ts        Todo con etiqueta · la pregunta · la frase final · gracias
   presenter/             Vista de presentador
   styles/                Tokens, escenario, escenas, etiquetas y presentador
