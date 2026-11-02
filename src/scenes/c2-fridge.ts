@@ -29,6 +29,7 @@ export class FridgeScene extends Scene {
         'blockquote',
         'abs fx fr-taber',
         `<p class="fr-kicker">Keith S. Taber, sobre el <i>impedimento pedagógico</i></p>
+         <p class="fr-origin">No nace de la intuición del alumno. Nace de <em>cómo se lo enseñamos</em>.</p>
          <p class="quote fr-quote">“El alumno solo es culpable de aprender lo que le enseñaron.”</p>`,
       ),
       0,

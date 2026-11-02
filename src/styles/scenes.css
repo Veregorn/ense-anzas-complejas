@@ -23,7 +23,9 @@
 .rl-punch { left: 0; right: 0; top: 160px; margin: 0; text-align: center; font-size: 62px; }
 
 /* ——— 2 · La nevera ——— */
-.fr-taber { left: 150px; top: 300px; margin: 0; }
+.fr-taber { left: 150px; top: 290px; margin: 0; }
+.fr-origin { margin: 18px 0 54px; font: 400 46px/1.25 var(--serif); color: var(--ink-soft); }
+.fr-origin em { font-style: normal; color: var(--time); }
 .fr-quote { margin: 26px 0 0; font-size: 92px; max-width: 15em; }
 .fr-study { left: 150px; top: 170px; right: 150px; }
 .fr-figures { display: flex; gap: 120px; margin-top: 40px; }

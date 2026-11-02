@@ -84,7 +84,7 @@ Hay que creérselo.
 
 ## Bloque 2 · Lo caducado se queda en la nevera (2:00 – 2:55)
 
-**Clic 13** · _Taber: «culpable de aprender lo que le enseñaron»_
+**Clic 13** · _Taber · «No nace de la intuición del alumno. Nace de cómo se lo enseñamos» · «culpable de aprender lo que le enseñaron»_
 Keith Taber‹, uno de los grandes de la didáctica de las ciencias,› le ha puesto nombre: impedimento pedagógico. Son errores que no vienen de la intuición del alumno, sino de cómo se lo enseñamos. Y dice algo demoledor: en esos casos, el alumno solo es culpable de haber aprendido lo que le enseñaron.
 
 **Clic 14** · _Shtulman y Valcarcel: 150 universitarios_

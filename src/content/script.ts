@@ -74,7 +74,7 @@ export const BLOCKS: Block[] = [
     anchors: ['Taber', 'culpable de aprender lo que le enseñaron', '150 universitarios', 'doctores en física', 'idea previa', 'la nevera'],
     beats: [
       {
-        cue: 'Taber: «culpable de aprender lo que le enseñaron»',
+        cue: 'Taber · «No nace de la intuición del alumno. Nace de cómo se lo enseñamos» · «culpable de aprender lo que le enseñaron»',
         say: 'Keith Taber{, uno de los grandes de la didáctica de las ciencias,} le ha puesto nombre: impedimento pedagógico. Son errores que no vienen de la intuición del alumno, sino de cómo se lo enseñamos. Y dice algo demoledor: en esos casos, el alumno solo es culpable de haber aprendido lo que le enseñaron.',
       },
       {
